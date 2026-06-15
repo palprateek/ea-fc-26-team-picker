@@ -1,11 +1,12 @@
 export async function startCamera(videoEl) {
-  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  // No width/height constraints — let the camera pick its native mode.
+  // overlay.js handles arbitrary aspect ratios via the object-fit: cover
+  // math in drawVideoFrame, and getFaceAnchor maps detection coordinates
+  // back into the cropped canvas. This is the same approach Google Meet
+  // and Zoom use to avoid the zoomed/cropped artifacts you get when you
+  // force a specific resolution the camera doesn't natively support.
   const stream = await navigator.mediaDevices.getUserMedia({
-    video: {
-      facingMode: 'user',
-      width:  { ideal: isMobile ? 480  : 720  },
-      height: { ideal: isMobile ? 640  : 1280 },
-    },
+    video: { facingMode: 'user' },
     audio: false,
   });
 

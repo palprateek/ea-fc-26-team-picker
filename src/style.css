@@ -46,11 +46,37 @@ html, body {
   background: linear-gradient(180deg, var(--pitch-700) 0%, var(--pitch-900) 100%);
 }
 
-#canvas {
-  display: block;
+/* ── Camera rendering (Google Meet / Zoom style) ── */
+/* The <video> element renders the camera directly. CSS object-fit: cover
+   handles rotation, aspect ratio, and DPI on every platform correctly —
+   no custom rotation math in JS. The canvas sits on top as a transparent
+   overlay for crests, shields, and other UI graphics. */
+.camera-video {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scaleX(-1); /* selfie mirror */
+  background: #000;
+  z-index: 1;
+  /* GPU isolation: the video repaints every camera frame. Containing its
+     stacking context + paint prevents those repaints from invalidating
+     sibling compositor layers (notably the backdrop-blurred chip bar). */
+  isolation: isolate;
+  contain: strict;
+  will-change: transform;
+}
+
+.camera-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  pointer-events: none;
+  z-index: 2;
+  background: transparent;
 }
 
 /* ── Mono utility ── */
@@ -67,7 +93,6 @@ html, body {
   inset: 14px;
   pointer-events: none;
   z-index: 5;
-  transition: opacity 0.3s;
 }
 .viewfinder-corners .corner {
   position: absolute;
@@ -103,7 +128,6 @@ html, body {
   text-transform: uppercase;
   color: var(--chalk-70);
   pointer-events: none;
-  transition: opacity 0.3s;
 }
 .status-strip .status-label,
 .status-strip .live-badge,
@@ -111,7 +135,16 @@ html, body {
   flex: 0 0 auto;
   white-space: nowrap;
 }
-.status-strip .status-label { display: inline-flex; align-items: center; gap: 8px; }
+.status-strip .status-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;            /* allow shrink inside flex */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.status-strip .status-label .pulse-dot { flex: 0 0 auto; }
 .status-strip.faded { opacity: 0.3; }
 .status-strip.hidden { opacity: 0; }
 
@@ -190,10 +223,23 @@ html, body {
   gap: 6px;
   padding: 8px 14px 10px;
   z-index: 10;
-  background: linear-gradient(180deg, rgba(5, 7, 10, 0.72) 0%, rgba(5, 7, 10, 0.2) 100%);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid var(--chalk-08);
+  /* Near-opaque gradient replaces backdrop-filter blur. On Android GPUs,
+     backdrop-filter re-composites on every sibling repaint; with a live
+     <video> element rendering the camera at 60fps below this bar, the
+     blur layer invalidated every frame → visible chip-bar flicker at
+     face-detection time. The gradient gives equivalent visual separation
+     with zero compositing cost.
+     Bottom fade uses 5 stops with ease-out curve so the bar dissolves
+     into the camera feed smoothly instead of ending on a hard dark line. */
+  background: linear-gradient(
+    180deg,
+    rgba(5, 7, 10, 0.94) 0%,
+    rgba(5, 7, 10, 0.90) 45%,
+    rgba(5, 7, 10, 0.60) 70%,
+    rgba(5, 7, 10, 0.25) 88%,
+    rgba(5, 7, 10, 0.0)  100%
+  );
+  border-bottom: none;
 }
 .league-bar.faded { opacity: 0.22; pointer-events: none; }
 .league-bar.hidden { opacity: 0; pointer-events: none; }
@@ -530,25 +576,10 @@ html, body {
   padding: 0 36px;
 }
 
-/* ── Scanline overlay on camera feed (cosmetic) ── */
-#app::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: repeating-linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0) 0,
-    rgba(0, 0, 0, 0) 3px,
-    rgba(0, 0, 0, 0.06) 3px,
-    rgba(0, 0, 0, 0.06) 4px
-  );
-  mix-blend-mode: multiply;
-  z-index: 4;
-  opacity: 0;
-  transition: opacity 0.4s;
-}
-#app.camera-active::after { opacity: 1; }
+/* (Scanline overlay removed — its ::after pseudo-element on #app was
+   forcing the compositor to re-evaluate the whole subtree on every
+   camera-active toggle, contributing to chip-bar flicker at face
+   detection time. Visual impact was negligible at 4% opacity.) */
 
 /* ── Dim overlay during spin ── */
 #app.spinning #canvas { filter: brightness(0.72); transition: filter 0.3s; }
@@ -626,11 +657,17 @@ html, body {
 @media (max-width: 520px), (max-height: 780px) and (orientation: portrait) {
   .status-strip {
     top: 10px;
-    left: 42px;
-    right: 42px;
+    left: 14px;
+    right: 14px;
     gap: 6px;
     font-size: 8.5px;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
+  }
+  .status-strip .status-label {
+    max-width: 40%;          /* phase label collapses first */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   .status-strip .status-label,
   .status-strip .live-badge,

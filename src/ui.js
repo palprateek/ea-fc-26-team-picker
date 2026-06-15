@@ -6,6 +6,25 @@ export function createUI(elements, teamData, callbacks) {
   let currentState = 'loading';
   let activePoolSize = 0;
 
+  // Cached DOM state — we skip mutations when the new value matches the
+  // cached one. This is critical on Android, where every classList/style
+  // change on a sibling of the backdrop-blurred chip bar can force a
+  // compositor repaint and produce a visible flicker.
+  let cachedFaceBadgeActive = null;
+  let cachedFaceBadgeText = null;
+  let cachedStatusLabelHtml = null;
+  let cachedSpinBtnDisabled = null;
+  let cachedSpinBtnReady = null;
+  let cachedSpinLabelText = null;
+  let cachedSpinSubText = null;
+  let cachedSpinBtnDisplay = null;
+  let cachedSpinAgainDisplay = null;
+  let cachedLoadingHidden = null;
+  let cachedStatusFaded = null;
+  let cachedCornersFaded = null;
+  let cachedLeagueFaded = null;
+  let hasCameraActivated = false;
+
   function renderLeagueChips() {
     const leagues = teamData.getLeagues();
     leagueRow.innerHTML = '';
@@ -84,7 +103,10 @@ export function createUI(elements, teamData, callbacks) {
       ? ''
       : `<span style="opacity:0.55">·</span> FACES · ${faceCount}`;
 
-    label.innerHTML = `<span class="pulse-dot"></span>${phase} ${facePart}`;
+    const html = `<span class="pulse-dot"></span>${phase} ${facePart}`;
+    if (html === cachedStatusLabelHtml) return;
+    cachedStatusLabelHtml = html;
+    label.innerHTML = html;
   }
 
   function setFaceCount(n) {
@@ -92,11 +114,19 @@ export function createUI(elements, teamData, callbacks) {
       faceCount = n;
       refreshStatus();
     }
-    if (faceBadge) {
-      faceBadge.classList.toggle('active', n > 0);
+
+    const shouldBeActive = n > 0;
+    if (faceBadge && shouldBeActive !== cachedFaceBadgeActive) {
+      cachedFaceBadgeActive = shouldBeActive;
+      faceBadge.classList.toggle('active', shouldBeActive);
     }
+
     if (faceBadgeText) {
-      faceBadgeText.textContent = `FACES · ${n}`;
+      const text = `FACES · ${n}`;
+      if (text !== cachedFaceBadgeText) {
+        cachedFaceBadgeText = text;
+        faceBadgeText.textContent = text;
+      }
     }
   }
 
@@ -104,70 +134,121 @@ export function createUI(elements, teamData, callbacks) {
     if (n === activePoolSize) return;
     activePoolSize = n;
     const app = document.getElementById('app');
-    app.classList.toggle('empty-pool', n === 0);
+    const shouldBeEmpty = n === 0;
+    if (app.classList.contains('empty-pool') !== shouldBeEmpty) {
+      app.classList.toggle('empty-pool', shouldBeEmpty);
+    }
     if (spinBtn && currentState === 'ready') {
-      spinBtn.disabled = n === 0;
+      const shouldBeDisabled = n === 0;
+      if (shouldBeDisabled !== cachedSpinBtnDisabled) {
+        cachedSpinBtnDisabled = shouldBeDisabled;
+        spinBtn.disabled = shouldBeDisabled;
+      }
       const label = spinBtn.querySelector('.spin-label');
       const sub = spinBtn.querySelector('.spin-sub');
       if (n === 0) {
-        if (label) label.textContent = 'NO TEAMS';
-        if (sub) sub.textContent = 'ADJUST FILTERS';
+        if (label && label.textContent !== 'NO TEAMS') label.textContent = 'NO TEAMS';
+        if (sub && sub.textContent !== 'ADJUST FILTERS') sub.textContent = 'ADJUST FILTERS';
       } else {
-        if (label) label.textContent = 'SPIN';
-        if (sub) sub.textContent = 'TAP TO ASSIGN CLUB';
+        if (label && label.textContent !== 'SPIN') label.textContent = 'SPIN';
+        if (sub && sub.textContent !== 'TAP TO ASSIGN CLUB') sub.textContent = 'TAP TO ASSIGN CLUB';
       }
     }
   }
 
   function setState(appState) {
+    if (appState === currentState) return;
+
     const app = document.getElementById('app');
     app.classList.remove('loading', 'waiting', 'ready', 'spinning', 'result');
     app.classList.add(appState);
     currentState = appState;
 
-    prompt.classList.toggle('visible', appState === 'waiting');
+    const promptVisible = appState === 'waiting';
+    if (prompt.classList.contains('visible') !== promptVisible) {
+      prompt.classList.toggle('visible', promptVisible);
+    }
 
     if (appState === 'ready') {
-      spinBtn.disabled = activePoolSize === 0;
-      spinBtn.classList.toggle('ready', activePoolSize > 0);
+      const shouldBeDisabled = activePoolSize === 0;
+      if (shouldBeDisabled !== cachedSpinBtnDisabled) {
+        cachedSpinBtnDisabled = shouldBeDisabled;
+        spinBtn.disabled = shouldBeDisabled;
+      }
+      const shouldBeReady = activePoolSize > 0;
+      if (shouldBeReady !== cachedSpinBtnReady) {
+        cachedSpinBtnReady = shouldBeReady;
+        spinBtn.classList.toggle('ready', shouldBeReady);
+      }
       const label = spinBtn.querySelector('.spin-label');
       const sub = spinBtn.querySelector('.spin-sub');
       if (activePoolSize === 0) {
-        if (label) label.textContent = 'NO TEAMS';
-        if (sub) sub.textContent = 'ADJUST FILTERS';
+        if (label && label.textContent !== 'NO TEAMS') label.textContent = 'NO TEAMS';
+        if (sub && sub.textContent !== 'ADJUST FILTERS') sub.textContent = 'ADJUST FILTERS';
       } else {
-        if (label) label.textContent = 'SPIN';
-        if (sub) sub.textContent = 'TAP TO ASSIGN CLUB';
+        if (label && label.textContent !== 'SPIN') label.textContent = 'SPIN';
+        if (sub && sub.textContent !== 'TAP TO ASSIGN CLUB') sub.textContent = 'TAP TO ASSIGN CLUB';
       }
     } else {
-      spinBtn.disabled = true;
-      spinBtn.classList.remove('ready');
+      if (cachedSpinBtnDisabled !== true) {
+        cachedSpinBtnDisabled = true;
+        spinBtn.disabled = true;
+      }
+      if (cachedSpinBtnReady !== false) {
+        cachedSpinBtnReady = false;
+        spinBtn.classList.remove('ready');
+      }
     }
-    spinBtn.style.display = (appState === 'result' || appState === 'spinning') ? 'none' : '';
-    spinAgainBtn.style.display = appState === 'result' ? '' : 'none';
 
-    loadingScreen.classList.toggle('hidden', appState !== 'loading');
+    const spinBtnDisplay = (appState === 'result' || appState === 'spinning') ? 'none' : '';
+    if (spinBtnDisplay !== cachedSpinBtnDisplay) {
+      cachedSpinBtnDisplay = spinBtnDisplay;
+      spinBtn.style.display = spinBtnDisplay;
+    }
+    const spinAgainDisplay = appState === 'result' ? '' : 'none';
+    if (spinAgainDisplay !== cachedSpinAgainDisplay) {
+      cachedSpinAgainDisplay = spinAgainDisplay;
+      spinAgainBtn.style.display = spinAgainDisplay;
+    }
 
-    if (appState === 'ready' || appState === 'result' || appState === 'spinning') {
+    const loadingHidden = appState !== 'loading';
+    if (loadingHidden !== cachedLoadingHidden) {
+      cachedLoadingHidden = loadingHidden;
+      loadingScreen.classList.toggle('hidden', loadingHidden);
+    }
+
+    // One-way transition: once the camera is live, never remove the class.
+    // This avoids the compositor tearing down / rebuilding the scanline
+    // overlay layer on every state change.
+    if (!hasCameraActivated &&
+        (appState === 'ready' || appState === 'result' || appState === 'spinning')) {
+      hasCameraActivated = true;
       app.classList.add('camera-active');
     }
 
-    if (faceBadge) {
-      faceBadge.classList.toggle('active', faceCount > 0);
-    }
-    if (faceBadgeText) {
-      faceBadgeText.textContent = `FACES · ${faceCount}`;
-    }
+    // faceBadge state is driven by setFaceCount, not by app state. No-op
+    // here to avoid redundant classList writes per state transition.
 
     if (statusStrip) {
       const faded = appState === 'spinning' || appState === 'result';
-      statusStrip.classList.toggle('faded', faded);
+      if (faded !== cachedStatusFaded) {
+        cachedStatusFaded = faded;
+        statusStrip.classList.toggle('faded', faded);
+      }
     }
     if (viewfinderCorners) {
-      viewfinderCorners.classList.toggle('faded', appState === 'spinning');
+      const faded = appState === 'spinning';
+      if (faded !== cachedCornersFaded) {
+        cachedCornersFaded = faded;
+        viewfinderCorners.classList.toggle('faded', faded);
+      }
     }
     if (leagueBar) {
-      leagueBar.classList.toggle('faded', appState === 'spinning');
+      const faded = appState === 'spinning';
+      if (faded !== cachedLeagueFaded) {
+        cachedLeagueFaded = faded;
+        leagueBar.classList.toggle('faded', faded);
+      }
     }
 
     refreshStatus();

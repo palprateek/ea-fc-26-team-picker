@@ -35,7 +35,11 @@ const images = {
   lazy: new Map(),
 };
 
-const overlay = createOverlay(canvas, images);
+// The overlay module takes the <video> element so it can compute the
+// same cover-viewport math the browser uses to display the camera —
+// face positions from MediaPipe then map to the correct screen pixels
+// regardless of the camera's native resolution or aspect ratio.
+const overlay = createOverlay(canvas, video, images);
 
 let detector = null;
 let faces = [];
@@ -105,9 +109,8 @@ function startSpin() {
     const c = overlay.startCarousel(
       { team: spinResult.team, _cards: activePool, duration: spinResult.duration },
       face,
-      video.videoWidth,
-      video.videoHeight,
     );
+    if (!c) continue;
     carousels.push(c);
     resultTeams.push(spinResult.team);
     spinDuration = spinResult.duration;
@@ -115,12 +118,25 @@ function startSpin() {
 }
 
 function loop(timestamp) {
+  // Wait for the video element to have intrinsic dimensions (camera
+  // stream has started). The <video> element renders itself; we only
+  // need to sync the overlay canvas size and draw UI on top.
   if (!video.videoWidth) {
     requestAnimationFrame(loop);
     return;
   }
 
-  overlay.drawVideoFrame(video, video.videoWidth, video.videoHeight);
+  overlay.syncCanvasSize();
+
+  // Only clear the canvas during states that actually draw UI on it.
+  // During `waiting` and `ready` the canvas is idle (just a transparent
+  // overlay), so clearing it every frame forces the compositor to
+  // invalidate sibling layers (notably the backdrop-blurred chip bar)
+  // — producing the visible flicker users report specifically when a
+  // face is detected.
+  if (sm.getState() === 'spinning' || sm.getState() === 'result') {
+    overlay.beginFrame();
+  }
 
   if (detector) {
     faces = detector.detect(video, timestamp);
@@ -165,7 +181,7 @@ function loop(timestamp) {
     for (let i = 0; i < resultTeams.length; i++) {
       const face = facesToUse[i];
       if (face) {
-        overlay.drawResult(resultTeams[i], face, video.videoWidth, video.videoHeight, revealProgress);
+        overlay.drawResult(resultTeams[i], face, revealProgress);
       }
     }
   }
@@ -206,7 +222,7 @@ function registerServiceWorker() {
 
 async function init() {
   try {
-    const cam = await startCamera(video);
+    await startCamera(video);
     detector = await createFaceDetector();
     sm.dispatch('modelLoaded');
     requestAnimationFrame(loop);
