@@ -90,6 +90,10 @@ function startSpin() {
     console.warn('startSpin blocked: active pool is empty');
     return;
   }
+  if (lastFaces.length === 0) {
+    console.warn('startSpin blocked: no face has been detected yet');
+    return;
+  }
   const carousel = createCarousel(activePool);
   carousels = [];
   resultTeams = [];

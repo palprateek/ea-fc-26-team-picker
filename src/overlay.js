@@ -154,13 +154,16 @@ export function createOverlay(canvas, images) {
     ctx.scale(-1, 1);
     if (videoIsLandscape) {
       // Video buffer is landscape but we want portrait framing: rotate 90°
-      // then draw from the swapped source rect.
+      // CCW then draw from the swapped source rect. After
+      //   scale(-1, 1) · translate(-cw, 0) · rotate(-π/2)
+      // the destination (-cw, 0, ch, cw) maps to canvas pixels
+      // [0, cw] × [0, ch] with selfie-mirroring preserved.
       ctx.translate(-canvas.width, 0);
       ctx.rotate(-Math.PI / 2);
       ctx.drawImage(
         video,
         sx, sy, srcW, srcH,
-        0, 0, canvas.height, canvas.width,
+        -canvas.width, 0, canvas.height, canvas.width,
       );
     } else {
       ctx.drawImage(
