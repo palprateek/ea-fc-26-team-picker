@@ -6,7 +6,11 @@
 // cover-viewport math the browser uses to display the video.
 
 const CREST_SIZE = 130;
-const HEAD_GAP = 14;
+// HEAD_GAP positions the crest center above the top of the face bounding
+// box. At ANDROID_SCALE = 2.0 the frame + team name span ~200 px below
+// the crest center, so a 200 px gap places the team name roughly at the
+// forehead level of the detected face rather than the chin / neck.
+const HEAD_GAP = 200;
 const TOTAL_FLASHES = 40;
 // Carousel frame-to-crest ratio. Tightened from 1.4 so the card stays
 // compact when ANDROID_SCALE is >1.5 — otherwise the 2× crest + 1.4×
@@ -155,16 +159,18 @@ export function createOverlay(canvas, video, images, opts = {}) {
   const ANDROID_SCALE = opts.isAndroid ? 2.0 : 1.0;
   const BASE_CREST_SIZE = CREST_SIZE * ANDROID_SCALE;
 
-  // "Real" landscape = touch device AND canvas wider than tall. This
-  // mirrors the CSS media query that rotates the SPIN button onto the
-  // right edge (orientation: landscape + hover: none + pointer: coarse).
-  // Without the touch-device gate, desktop windows with a landscape
-  // aspect ratio (e.g. 1440×900) would incorrectly rotate the
-  // "PICKING YOUR CLUB…" banner onto the left edge and dock the crest
-  // beside the face instead of above it.
+  // "Real" landscape = touch device AND CSS viewport wider than tall.
+  // Uses video.clientWidth/Height (the CSS layout dimensions the browser
+  // reports) rather than canvas.width/height (which include devicePixelRatio
+  // scaling and can disagree with the CSS media query on Android phones
+  // with nav bars, keyboards, or camera cutouts). A 1.05 aspect-ratio
+  // threshold prevents flipping on square-ish viewports.
   const isTouch = !!opts.isTouchDevice;
   function isRealLandscape() {
-    return isTouch && canvas.width > canvas.height;
+    if (!isTouch) return false;
+    const vw = video.clientWidth;
+    const vh = video.clientHeight;
+    return vw > 0 && vh > 0 && (vw / vh) > 1.05;
   }
 
   // Size the overlay canvas to match the video element 1:1. The canvas is
@@ -411,13 +417,16 @@ export function createOverlay(canvas, video, images, opts = {}) {
       ctx.textBaseline = 'top';
       ctx.shadowColor = 'rgba(0,0,0,0.95)';
       ctx.shadowBlur = 14;
-      ctx.fillText(team.name.toUpperCase(), crestCx, crestCy + frameSize * 0.5 + (isLandscape ? 4 : 8));
+      ctx.fillText(team.name.toUpperCase(), crestCx, crestCy + frameSize * 0.48 + (isLandscape ? 4 : 6));
 
       const leagueName = team.leagueName || '';
       const countryName = team.country ? team.country.toUpperCase().replace(/-/g, ' ') : '';
       const chipText = [leagueName, countryName].filter(Boolean).join(' · ');
       if (chipText) {
-        const chipY = crestCy + frameSize * 0.5 + (isLandscape ? 28 : 38);
+        // 30 px gap in portrait (36 − 6) between the team-name baseline
+        // and the pill top; 24 px in landscape. Comfortable visual
+        // breathing room without pushing the pill too far from the name.
+        const chipY = crestCy + frameSize * 0.48 + (isLandscape ? 30 : 36);
         ctx.font = `500 ${Math.round(9 * ANDROID_SCALE)}px 'JetBrains Mono', monospace`;
         const chipW = ctx.measureText(chipText).width + 20;
         const chipH = Math.round(20 * ANDROID_SCALE);
