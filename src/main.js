@@ -26,6 +26,18 @@ if (narrowMq.addEventListener) {
 const teamData = createTeamData(teamsJson);
 const sm = createStateMachine();
 
+// Android phones render crests and team-name text noticeably smaller than
+// iOS / desktop at the same CSS px (different device-pixel-ratio handling
+// in Chrome-Android's compositor). Bumping the card scale on Android
+// compensates without affecting other platforms.
+const isAndroid = /Android/i.test(navigator.userAgent);
+
+// "Touch device" flag mirrors the CSS media query that gates the rotated
+// landscape SPIN button to (hover: none) and (pointer: coarse). Without
+// it, the canvas-side landscape check (canvas.width > canvas.height)
+// would rotate the banner on desktop landscape windows.
+const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+
 // Logo assets: a single sprite sheet + atlas index, plus a lazy-load map
 // for fallback. Loaded asynchronously AFTER the face model resolves so
 // sprite fetch doesn't compete with the WASM/model download for bandwidth.
@@ -39,7 +51,7 @@ const images = {
 // same cover-viewport math the browser uses to display the camera —
 // face positions from MediaPipe then map to the correct screen pixels
 // regardless of the camera's native resolution or aspect ratio.
-const overlay = createOverlay(canvas, video, images);
+const overlay = createOverlay(canvas, video, images, { isAndroid, isTouchDevice });
 
 let detector = null;
 let faces = [];

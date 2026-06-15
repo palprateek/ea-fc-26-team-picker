@@ -6,8 +6,12 @@
 // cover-viewport math the browser uses to display the video.
 
 const CREST_SIZE = 130;
-const HEAD_GAP = 20;
+const HEAD_GAP = 14;
 const TOTAL_FLASHES = 40;
+// Carousel frame-to-crest ratio. Tightened from 1.4 so the card stays
+// compact when ANDROID_SCALE is >1.5 — otherwise the 2× crest + 1.4×
+// frame produced a card taller than the space above the face.
+const CAROUSEL_FRAME_RATIO = 1.25;
 
 const NEON = '#c8ff00';
 const NEON_GLOW = 'rgba(200, 255, 0, 0.55)';
@@ -140,8 +144,28 @@ function computeCoverViewport(video) {
   };
 }
 
-export function createOverlay(canvas, video, images) {
+export function createOverlay(canvas, video, images, opts = {}) {
   const ctx = canvas.getContext('2d');
+
+  // Android phones render the team card (crest + shield frame + name
+  // text) noticeably smaller than iOS / desktop at the same CSS px, due
+  // to Chrome-Android's compositor handling of device-pixel-ratio. A 2.0×
+  // scale on Android brings visual parity without affecting other
+  // platforms. The factor multiplies every card dimension below.
+  const ANDROID_SCALE = opts.isAndroid ? 2.0 : 1.0;
+  const BASE_CREST_SIZE = CREST_SIZE * ANDROID_SCALE;
+
+  // "Real" landscape = touch device AND canvas wider than tall. This
+  // mirrors the CSS media query that rotates the SPIN button onto the
+  // right edge (orientation: landscape + hover: none + pointer: coarse).
+  // Without the touch-device gate, desktop windows with a landscape
+  // aspect ratio (e.g. 1440×900) would incorrectly rotate the
+  // "PICKING YOUR CLUB…" banner onto the left edge and dock the crest
+  // beside the face instead of above it.
+  const isTouch = !!opts.isTouchDevice;
+  function isRealLandscape() {
+    return isTouch && canvas.width > canvas.height;
+  }
 
   // Size the overlay canvas to match the video element 1:1. The canvas is
   // transparent — we only draw UI elements on it; the video is rendered by
@@ -208,14 +232,24 @@ export function createOverlay(canvas, video, images) {
     );
 
     const { cx, topY } = carousel.anchor;
-    const crestCy = topY - CREST_SIZE / 2 - HEAD_GAP;
-    const frameSize = CREST_SIZE * 1.4;
+    const isLandscape = isRealLandscape();
+    // In landscape, dock the crest beside the face (to its right in
+    // mirrored screen space) rather than above it, so it doesn't float
+    // off the top of the shorter vertical axis.
+    const crestSize = isLandscape ? BASE_CREST_SIZE * 0.85 : BASE_CREST_SIZE;
+    const crestCy = isLandscape
+      ? topY
+      : topY - crestSize / 2 - HEAD_GAP;
+    const crestCx = isLandscape
+      ? cx + crestSize / 2 + HEAD_GAP
+      : cx;
+    const frameSize = crestSize * CAROUSEL_FRAME_RATIO;
     const ringRadius = frameSize * 0.62;
 
     ctx.save();
     ctx.fillStyle = 'rgba(5, 7, 10, 0.55)';
     ctx.beginPath();
-    ctx.arc(cx, crestCy, ringRadius + 14, 0, Math.PI * 2);
+    ctx.arc(crestCx, crestCy, ringRadius + 14, 0, Math.PI * 2);
     ctx.fill();
     ctx.restore();
 
@@ -223,7 +257,7 @@ export function createOverlay(canvas, video, images) {
     ctx.strokeStyle = 'rgba(245, 247, 255, 0.1)';
     ctx.lineWidth = 3;
     ctx.beginPath();
-    ctx.arc(cx, crestCy, ringRadius, -Math.PI / 2, Math.PI * 1.5);
+    ctx.arc(crestCx, crestCy, ringRadius, -Math.PI / 2, Math.PI * 1.5);
     ctx.stroke();
     ctx.restore();
 
@@ -234,7 +268,7 @@ export function createOverlay(canvas, video, images) {
     ctx.shadowBlur = 16;
     ctx.lineCap = 'round';
     ctx.beginPath();
-    ctx.arc(cx, crestCy, ringRadius, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * t);
+    ctx.arc(crestCx, crestCy, ringRadius, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * t);
     ctx.stroke();
     ctx.restore();
 
@@ -244,30 +278,30 @@ export function createOverlay(canvas, video, images) {
     ctx.lineWidth = 3;
     ctx.shadowColor = NEON_GLOW;
     ctx.shadowBlur = 22;
-    shieldPath(ctx, cx, crestCy, frameSize);
+    shieldPath(ctx, crestCx, crestCy, frameSize);
     ctx.fill();
     ctx.stroke();
     ctx.shadowBlur = 0;
     ctx.strokeStyle = NEON;
     ctx.lineWidth = 1.2;
-    shieldPath(ctx, cx, crestCy, frameSize * 0.92);
+    shieldPath(ctx, crestCx, crestCy, frameSize * 0.92);
     ctx.stroke();
     ctx.restore();
 
     ctx.save();
     ctx.globalAlpha = 0.85;
-    shieldPath(ctx, cx, crestCy, frameSize * 0.88);
+    shieldPath(ctx, crestCx, crestCy, frameSize * 0.88);
     ctx.clip();
     const curTeam = carousel.sequence[flashIndex];
-    const streakLen = Math.max(0, 1 - t) * CREST_SIZE * 0.9;
+    const streakLen = Math.max(0, 1 - t) * crestSize * 0.9;
     if (streakLen > 4) {
-      const grad = ctx.createLinearGradient(cx, crestCy - CREST_SIZE / 2 - streakLen, cx, crestCy + CREST_SIZE / 2);
+      const grad = ctx.createLinearGradient(crestCx, crestCy - crestSize / 2 - streakLen, crestCx, crestCy + crestSize / 2);
       grad.addColorStop(0, 'rgba(200, 255, 0, 0)');
       grad.addColorStop(1, 'rgba(200, 255, 0, 0.18)');
       ctx.fillStyle = grad;
-      ctx.fillRect(cx - CREST_SIZE / 2, crestCy - CREST_SIZE / 2 - streakLen, CREST_SIZE, CREST_SIZE + streakLen);
+      ctx.fillRect(crestCx - crestSize / 2, crestCy - crestSize / 2 - streakLen, crestSize, crestSize + streakLen);
     }
-    drawCrest(ctx, cx, crestCy, curTeam, CREST_SIZE, images);
+    drawCrest(ctx, crestCx, crestCy, curTeam, crestSize, images);
     ctx.restore();
 
     if (t > 0.72) {
@@ -275,21 +309,24 @@ export function createOverlay(canvas, video, images) {
       ctx.save();
       ctx.globalAlpha = alpha;
       ctx.fillStyle = FLOOD;
-      ctx.font = "bold 20px 'Bebas Neue', sans-serif";
+      ctx.font = `bold ${Math.round(18 * ANDROID_SCALE)}px 'Bebas Neue', sans-serif`;
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
       ctx.shadowColor = 'rgba(0,0,0,0.9)';
       ctx.shadowBlur = 10;
-      ctx.fillText(curTeam.name.toUpperCase(), cx, crestCy + frameSize * 0.52 + 14);
+      const nameY = isLandscape
+        ? crestCy + frameSize * 0.52 + 8
+        : crestCy + frameSize * 0.52 + 14;
+      ctx.fillText(curTeam.name.toUpperCase(), crestCx, nameY);
       ctx.restore();
     }
 
     const ticks = 4;
     for (let i = 0; i < ticks; i++) {
       const a = -Math.PI / 2 + (i / ticks) * Math.PI * 2;
-      const x1 = cx + Math.cos(a) * (ringRadius - 4);
+      const x1 = crestCx + Math.cos(a) * (ringRadius - 4);
       const y1 = crestCy + Math.sin(a) * (ringRadius - 4);
-      const x2 = cx + Math.cos(a) * (ringRadius + 4);
+      const x2 = crestCx + Math.cos(a) * (ringRadius + 4);
       const y2 = crestCy + Math.sin(a) * (ringRadius + 4);
       ctx.save();
       ctx.strokeStyle = 'rgba(245, 247, 255, 0.45)';
@@ -312,21 +349,30 @@ export function createOverlay(canvas, video, images) {
     const scale = p < 0.5
       ? 0.6 + (p / 0.5) * 0.55
       : 1.15 - (p - 0.5) / 0.5 * 0.15;
-    const crestSize = CREST_SIZE * scale;
-    const crestCy = topY - crestSize / 2 - HEAD_GAP;
-    const frameSize = crestSize * 1.55;
+    const isLandscape = isRealLandscape();
+    const baseSize = (isLandscape ? BASE_CREST_SIZE * 0.85 : BASE_CREST_SIZE) * scale;
+    const crestCy = isLandscape
+      ? topY
+      : topY - baseSize / 2 - HEAD_GAP;
+    const crestCx = isLandscape
+      ? cx + baseSize / 2 + HEAD_GAP
+      : cx;
+    // Tightened from 1.55 to 1.3 so the result card fits above the face
+    // even at ANDROID_SCALE = 2.0. The crest stays at the user-configured
+    // scale; only the surrounding neon frame + typography offsets shrink.
+    const frameSize = baseSize * 1.3;
 
     if (p > 0.05 && p < 0.85) {
       const burstAlpha = p < 0.4 ? (p / 0.4) : (0.85 - p) / 0.45;
       const burstRadius = frameSize * (0.7 + p * 0.6);
       ctx.save();
       ctx.globalAlpha = burstAlpha * 0.4;
-      const burstGrad = ctx.createRadialGradient(cx, crestCy, frameSize * 0.3, cx, crestCy, burstRadius);
+      const burstGrad = ctx.createRadialGradient(crestCx, crestCy, frameSize * 0.3, crestCx, crestCy, burstRadius);
       burstGrad.addColorStop(0, NEON_SOFT);
       burstGrad.addColorStop(1, 'rgba(200, 255, 0, 0)');
       ctx.fillStyle = burstGrad;
       ctx.beginPath();
-      ctx.arc(cx, crestCy, burstRadius, 0, Math.PI * 2);
+      ctx.arc(crestCx, crestCy, burstRadius, 0, Math.PI * 2);
       ctx.fill();
       ctx.restore();
     }
@@ -338,21 +384,21 @@ export function createOverlay(canvas, video, images) {
     ctx.lineWidth = 3;
     ctx.shadowColor = NEON_GLOW;
     ctx.shadowBlur = 30;
-    shieldPath(ctx, cx, crestCy, frameSize);
+    shieldPath(ctx, crestCx, crestCy, frameSize);
     ctx.fill();
     ctx.stroke();
     ctx.shadowBlur = 0;
     ctx.strokeStyle = 'rgba(245, 247, 255, 0.9)';
     ctx.lineWidth = 1.2;
-    shieldPath(ctx, cx, crestCy, frameSize * 0.92);
+    shieldPath(ctx, crestCx, crestCy, frameSize * 0.92);
     ctx.stroke();
     ctx.restore();
 
     ctx.save();
     ctx.globalAlpha = p;
-    shieldPath(ctx, cx, crestCy, frameSize * 0.88);
+    shieldPath(ctx, crestCx, crestCy, frameSize * 0.88);
     ctx.clip();
-    drawCrest(ctx, cx, crestCy, team, crestSize, images);
+    drawCrest(ctx, crestCx, crestCy, team, baseSize, images);
     ctx.restore();
 
     if (p > 0.3) {
@@ -360,31 +406,31 @@ export function createOverlay(canvas, video, images) {
       ctx.save();
       ctx.globalAlpha = textAlpha;
       ctx.fillStyle = FLOOD;
-      ctx.font = "bold 30px 'Bebas Neue', sans-serif";
+      ctx.font = `bold ${Math.round((isLandscape ? 24 : 30) * ANDROID_SCALE)}px 'Bebas Neue', sans-serif`;
       ctx.textAlign = 'center';
       ctx.textBaseline = 'top';
       ctx.shadowColor = 'rgba(0,0,0,0.95)';
       ctx.shadowBlur = 14;
-      ctx.fillText(team.name.toUpperCase(), cx, crestCy + frameSize * 0.52 + 14);
+      ctx.fillText(team.name.toUpperCase(), crestCx, crestCy + frameSize * 0.5 + (isLandscape ? 4 : 8));
 
       const leagueName = team.leagueName || '';
       const countryName = team.country ? team.country.toUpperCase().replace(/-/g, ' ') : '';
       const chipText = [leagueName, countryName].filter(Boolean).join(' · ');
       if (chipText) {
-        const chipY = crestCy + frameSize * 0.52 + 50;
-        ctx.font = "500 9px 'JetBrains Mono', monospace";
+        const chipY = crestCy + frameSize * 0.5 + (isLandscape ? 28 : 38);
+        ctx.font = `500 ${Math.round(9 * ANDROID_SCALE)}px 'JetBrains Mono', monospace`;
         const chipW = ctx.measureText(chipText).width + 20;
-        const chipH = 20;
+        const chipH = Math.round(20 * ANDROID_SCALE);
         ctx.globalAlpha = textAlpha * 0.85;
         ctx.fillStyle = 'rgba(5, 7, 10, 0.72)';
         ctx.strokeStyle = 'rgba(245, 247, 255, 0.22)';
         ctx.lineWidth = 1;
-        roundRect(ctx, cx - chipW / 2, chipY, chipW, chipH, 10);
+        roundRect(ctx, crestCx - chipW / 2, chipY, chipW, chipH, 10);
         ctx.fill();
         ctx.stroke();
         ctx.fillStyle = FLOOD;
         ctx.textBaseline = 'middle';
-        ctx.fillText(chipText, cx, chipY + chipH / 2);
+        ctx.fillText(chipText, crestCx, chipY + chipH / 2);
       }
       ctx.restore();
     }
@@ -406,6 +452,34 @@ export function createOverlay(canvas, video, images) {
 
   function drawSpinBanner(progress) {
     const w = canvas.width;
+    const h = canvas.height;
+    const isLandscape = isRealLandscape();
+
+    if (isLandscape) {
+      // In landscape the SPIN button docks to the right edge rotated 90°,
+      // so we draw the banner along the LEFT edge rotated 90° to match.
+      const bannerW = 40 * devicePixelRatio;
+      ctx.save();
+      ctx.fillStyle = 'rgba(5, 7, 10, 0.78)';
+      ctx.fillRect(0, 0, bannerW, h);
+
+      // Progress rail runs vertically down the banner's right edge.
+      ctx.fillStyle = NEON;
+      ctx.fillRect(bannerW - 2 * devicePixelRatio, 0, 2 * devicePixelRatio, h * progress);
+
+      // Rotated text running top-to-bottom.
+      ctx.translate(bannerW / 2, h / 2);
+      ctx.rotate(Math.PI / 2);
+      ctx.fillStyle = FLOOD;
+      ctx.font = `bold ${22 * devicePixelRatio}px 'Bebas Neue', sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('PICKING YOUR CLUB…', 0, 0);
+      ctx.restore();
+      return;
+    }
+
+    // Portrait: horizontal banner across the top (original behavior).
     const bannerH = 46 * devicePixelRatio;
     ctx.save();
     ctx.fillStyle = 'rgba(5, 7, 10, 0.78)';

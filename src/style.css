@@ -653,6 +653,78 @@ html, body {
   margin: 4px 0 0;
 }
 
+/* ── Mobile landscape (Android / iOS phone rotated) ── */
+/* Reorganize the portrait-stacked UI for horizontal ergonomics: SPIN
+   button docks to the right edge rotated 90°, league bar compresses to
+   a single row, status strip tightens. Only fires on touch devices in
+   landscape so desktop windows are unaffected. */
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) and (max-height: 520px) {
+  .status-strip {
+    top: 8px;
+    left: 12px;
+    right: 12px;
+    font-size: 8px;
+    gap: 4px;
+  }
+  .status-strip .status-label { max-width: 35%; }
+
+  /* League bar: single row at the top, no country row wrap issues */
+  .league-bar {
+    top: 28px;
+    padding: 4px 12px 6px;
+    gap: 4px;
+    max-height: 56px;
+    overflow: hidden;
+  }
+  .chip-row { gap: 4px; }
+  .league-chip {
+    padding: 4px 9px;
+    font-size: 9px;
+  }
+
+  /* SPIN button docks to the right edge, rotated 90° so the long axis
+     runs vertically along the phone's short edge (now the right side
+     in landscape). Easier thumb reach and doesn't occlude the face. */
+  .spin-btn {
+    left: auto;
+    right: 14px;
+    bottom: 50%;
+    transform: translateY(50%) rotate(-90deg);
+    transform-origin: center center;
+    padding: 12px 36px 10px;
+  }
+  .spin-btn:active:not(:disabled) {
+    transform: translateY(50%) rotate(-90deg) scale(0.96);
+  }
+  .spin-btn .spin-label { font-size: 22px; letter-spacing: 0.12em; }
+  .spin-btn .spin-sub   { font-size: 7px;  letter-spacing: 0.14em; }
+
+  /* SPIN AGAIN in the same docked-rotated position */
+  .spin-again-btn {
+    left: auto;
+    right: 14px;
+    bottom: 50%;
+    transform: translateY(50%) rotate(-90deg);
+    transform-origin: center center;
+    padding: 10px 24px 9px;
+  }
+  .spin-again-btn:active {
+    transform: translateY(50%) rotate(-90deg) scale(0.96);
+  }
+  .spin-again-btn .spin-label { font-size: 16px; }
+  .spin-again-btn .spin-sub   { font-size: 7px; }
+
+  /* Prompt target shrinks to fit the shorter vertical axis */
+  .prompt-target {
+    width: min(40vw, 240px);
+    height: min(60vh, 200px);
+  }
+  .prompt-text {
+    font-size: clamp(24px, 5vh, 36px);
+    margin-top: 12px;
+  }
+}
+
 /* ── Mobile / Android (narrow portrait) ── */
 @media (max-width: 520px), (max-height: 780px) and (orientation: portrait) {
   .status-strip {
