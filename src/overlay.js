@@ -52,17 +52,44 @@ function shieldPath(ctx, cx, cy, size) {
 }
 
 function drawCrest(ctx, cx, cy, team, size, images) {
-  const img = images?.get(team.id);
-  if (img && img.complete && img.naturalWidth > 0) {
+  // 1) Sprite-sheet hit: the build script packed this logo into sheet.png.
+  const cell = images?.atlas?.get(team.logoPath);
+  if (cell && images.sprite && images.sprite.complete && images.sprite.naturalWidth > 0) {
     ctx.save();
     ctx.shadowColor = 'rgba(0,0,0,0.6)';
     ctx.shadowBlur = 16;
     ctx.shadowOffsetY = 4;
-    ctx.drawImage(img, cx - size / 2, cy - size / 2, size, size);
+    ctx.drawImage(
+      images.sprite,
+      cell.x, cell.y, cell.w, cell.h,
+      cx - size / 2, cy - size / 2, size, size,
+    );
     ctx.restore();
     return;
   }
 
+  // 2) Lazy fallback: logo wasn't in the sprite (shouldn't happen in
+  //    production), so attempt an on-demand load and paint a placeholder
+  //    this frame. Subsequent frames will use the image once decoded.
+  if (images?.lazy) {
+    let img = images.lazy.get(team.logoPath);
+    if (!img) {
+      img = new Image();
+      img.src = team.logoPath;
+      images.lazy.set(team.logoPath, img);
+    }
+    if (img.complete && img.naturalWidth > 0) {
+      ctx.save();
+      ctx.shadowColor = 'rgba(0,0,0,0.6)';
+      ctx.shadowBlur = 16;
+      ctx.shadowOffsetY = 4;
+      ctx.drawImage(img, cx - size / 2, cy - size / 2, size, size);
+      ctx.restore();
+      return;
+    }
+  }
+
+  // 3) Generic fallback crest — colored shield with abbreviation text.
   const color = getColor(team);
   const abbr = getAbbr(team);
 
@@ -96,20 +123,91 @@ export function createOverlay(canvas, images) {
   const ctx = canvas.getContext('2d');
 
   function drawVideoFrame(video) {
-    canvas.width = canvas.clientWidth * devicePixelRatio;
-    canvas.height = canvas.clientHeight * devicePixelRatio;
+    const vw = video.videoWidth;
+    const vh = video.videoHeight;
+    const cw = canvas.clientWidth;
+    const ch = canvas.clientHeight;
+    if (!vw || !vh || !cw || !ch) return;
+
+    // Android front cameras often report landscape dimensions even in
+    // portrait orientation (e.g. 1280x720 when the phone is held tall).
+    // Swap to match the visible portrait framing.
+    const videoIsLandscape = vw > vh;
+    const portraitW = videoIsLandscape ? vh : vw;
+    const portraitH = videoIsLandscape ? vw : vh;
+
+    // object-fit: cover math: scale the (portrait) video to fully cover
+    // the viewport, then crop symmetrically. Sizing the canvas buffer to
+    // the cropped region makes CSS object-fit: cover a 1:1 display, so
+    // no second scaling distortion is applied.
+    const scale = Math.max(cw / portraitW, ch / portraitH);
+    const srcW = cw / scale;
+    const srcH = ch / scale;
+    const sx = (portraitW - srcW) / 2;
+    const sy = (portraitH - srcH) / 2;
+
+    canvas.width = Math.round(cw * devicePixelRatio);
+    canvas.height = Math.round(ch * devicePixelRatio);
 
     ctx.save();
+    // Mirror for selfie view + scale into the full canvas buffer.
     ctx.scale(-1, 1);
-    ctx.drawImage(video, -canvas.width, 0, canvas.width, canvas.height);
+    if (videoIsLandscape) {
+      // Video buffer is landscape but we want portrait framing: rotate 90°
+      // then draw from the swapped source rect.
+      ctx.translate(-canvas.width, 0);
+      ctx.rotate(-Math.PI / 2);
+      ctx.drawImage(
+        video,
+        sx, sy, srcW, srcH,
+        0, 0, canvas.height, canvas.width,
+      );
+    } else {
+      ctx.drawImage(
+        video,
+        sx, sy, srcW, srcH,
+        -canvas.width, 0, canvas.width, canvas.height,
+      );
+    }
     ctx.restore();
   }
 
   function getFaceAnchor(face, videoWidth, videoHeight) {
-    const scaleX = canvas.width / videoWidth;
-    const scaleY = canvas.height / videoHeight;
-    const cx = mirrorX(canvas.width, (face.x + face.width / 2) * scaleX);
-    const topY = face.y * scaleY;
+    // MediaPipe reports face coordinates in the video buffer's native
+    // coordinate space. For landscape-reported cameras, swap to portrait
+    // before mapping to the canvas (which is sized to the cover-cropped
+    // viewport).
+    const vw = videoWidth;
+    const vh = videoHeight;
+    const videoIsLandscape = vw > vh;
+    const portraitW = videoIsLandscape ? vh : vw;
+    const portraitH = videoIsLandscape ? vw : vh;
+
+    let fx, fy, fw, fh;
+    if (videoIsLandscape) {
+      fx = face.y;
+      fy = vw - face.x - face.width;
+      fw = face.height;
+      fh = face.width;
+    } else {
+      fx = face.x;
+      fy = face.y;
+      fw = face.width;
+      fh = face.height;
+    }
+
+    const cw = canvas.clientWidth;
+    const ch = canvas.clientHeight;
+    const scale = Math.max(cw / portraitW, ch / portraitH);
+    const srcW = cw / scale;
+    const srcH = ch / scale;
+    const sx = (portraitW - srcW) / 2;
+    const sy = (portraitH - srcH) / 2;
+
+    const relX = (fx + fw / 2 - sx) / srcW;
+    const relY = (fy - sy) / srcH;
+    const cx = (1 - relX) * canvas.width; // mirror
+    const topY = relY * canvas.height;
     return { cx, topY };
   }
 

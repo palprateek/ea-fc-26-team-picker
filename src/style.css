@@ -194,7 +194,6 @@ html, body {
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--chalk-08);
-  transition: opacity 0.35s;
 }
 .league-bar.faded { opacity: 0.22; pointer-events: none; }
 .league-bar.hidden { opacity: 0; pointer-events: none; }

@@ -26,12 +26,14 @@ if (narrowMq.addEventListener) {
 const teamData = createTeamData(teamsJson);
 const sm = createStateMachine();
 
-const images = new Map();
-for (const team of teamsJson) {
-  const img = new Image();
-  img.src = team.logoPath;
-  images.set(team.id, img);
-}
+// Logo assets: a single sprite sheet + atlas index, plus a lazy-load map
+// for fallback. Loaded asynchronously AFTER the face model resolves so
+// sprite fetch doesn't compete with the WASM/model download for bandwidth.
+const images = {
+  sprite: null,
+  atlas: new Map(),
+  lazy: new Map(),
+};
 
 const overlay = createOverlay(canvas, images);
 
@@ -44,6 +46,8 @@ let resultTeams = [];
 let resultStartTime = 0;
 let spinStartTime = 0;
 let spinDuration = 3500;
+let consecutiveNoFaceFrames = 0;
+const NO_FACE_DEBOUNCE = 15; // ~250ms at 60fps
 
 sm.onTransition(({ to }) => {
   ui.setState(to);
@@ -119,13 +123,17 @@ function loop(timestamp) {
 
     if (faces.length > 0) {
       lastFaces = faces;
+      consecutiveNoFaceFrames = 0;
+    } else {
+      consecutiveNoFaceFrames++;
     }
 
     ui.setFaceCount(faces.length);
 
     if (sm.getState() === 'waiting' && faces.length > 0) {
       sm.dispatch('faceDetected');
-    } else if (sm.getState() === 'ready' && faces.length === 0) {
+    } else if (sm.getState() === 'ready' && consecutiveNoFaceFrames >= NO_FACE_DEBOUNCE) {
+      consecutiveNoFaceFrames = 0;
       sm.dispatch('faceLost');
     }
   }
@@ -161,12 +169,48 @@ function loop(timestamp) {
   requestAnimationFrame(loop);
 }
 
+// Load sprite sheet + atlas in the background. If either fails we fall
+// back to lazy per-logo loads inside drawCrest — the app still works,
+// just slower on first spin.
+async function loadSpriteAssets() {
+  try {
+    const [sprite, atlasJson] = await Promise.all([
+      new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(img);
+        img.onerror = reject;
+        img.src = '/sprites/sheet.png';
+      }),
+      fetch('/sprites/atlas.json').then(r => r.json()),
+    ]);
+    images.sprite = sprite;
+    images.atlas = new Map(Object.entries(atlasJson));
+    console.log(`[perf] sprite loaded: ${images.atlas.size} cells`);
+  } catch (err) {
+    console.warn('[perf] sprite load failed, falling back to lazy per-logo loads:', err);
+  }
+}
+
+function registerServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch(err => {
+      console.warn('SW registration failed:', err);
+    });
+  });
+}
+
 async function init() {
   try {
     const cam = await startCamera(video);
     detector = await createFaceDetector();
     sm.dispatch('modelLoaded');
     requestAnimationFrame(loop);
+
+    // Non-blocking: kick off sprite + SW after the critical path resolves
+    // so the user sees the camera UI as soon as possible.
+    loadSpriteAssets();
+    registerServiceWorker();
   } catch (err) {
     console.error('Init failed:', err);
     const safeMessage = String(err.message || 'Unknown error')

@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build:icons": "node scripts/build-icons.js",
+    "build:sprite": "node scripts/build-sprite.js",
     "optimize:logos": "node scripts/optimize-logos.js",
-    "build": "npm run build:icons && vite build",
+    "build": "npm run build:icons && npm run build:sprite && vite build",
     "test": "vitest run",
     "test:watch": "vitest"
   },
