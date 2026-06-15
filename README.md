@@ -118,6 +118,11 @@ vercel --prod   # production
 
 Vercel auto-detects Vite, runs `npm run build` (which chains `build:icons && vite build`), and serves `/dist`. Camera access requires HTTPS — Vercel provides auto-TLS on `*.vercel.app`.
 
+## Known limitations
+
+- **Landscape mode requires OS auto-rotate ON.** The site reads display orientation via CSS media queries and viewport dimensions — when Android auto-rotate is off, the display is locked in portrait by the OS and no web API can detect the physical tilt.
+- **Camera aspect ratios vary by device.** The app uses `object-fit: cover` and lets the camera pick its native mode (Meet / Zoom style), so framing differs across phones — faces may appear slightly tighter or wider than on desktop.
+
 ## Further reading
 
 - `CONTEXT.md` — domain glossary (Filter, Player, Team, League, Spin, Screen state) and the architectural decisions behind platform, spin mechanics, face detection, and hosting choices.
