@@ -160,14 +160,25 @@ export function createOverlay(canvas, video, images, opts = {}) {
   const BASE_CREST_SIZE = CREST_SIZE * ANDROID_SCALE;
 
   // "Real" landscape = touch device AND CSS viewport wider than tall.
-  // Uses video.clientWidth/Height (the CSS layout dimensions the browser
-  // reports) rather than canvas.width/height (which include devicePixelRatio
-  // scaling and can disagree with the CSS media query on Android phones
-  // with nav bars, keyboards, or camera cutouts). A 1.05 aspect-ratio
-  // threshold prevents flipping on square-ish viewports.
-  const isTouch = !!opts.isTouchDevice;
+  //
+  // Touch detection has two redundant signals because real Android
+  // Chrome + Vercel has been observed to return `false` from a cached
+  // matchMedia('(hover: none) and (pointer: coarse)').matches while the
+  // identical CSS @media query matches — the SPIN button rotates (CSS
+  // trusts its own engine) but the banner stays horizontal (JS
+  // disagrees). Live-query evaluation + UA-sniff fallback ensures
+  // landscape mode fires whenever EITHER signal says "touch", which
+  // matches the CSS's behavior.
+  const touchMediaQuery = opts.touchMediaQuery;
+  const uaSaysTouch = !!opts.uaSaysTouch;
+  function isTouchNow() {
+    try {
+      if (touchMediaQuery && touchMediaQuery.matches) return true;
+    } catch { /* matchMedia threw — fall through to UA */ }
+    return uaSaysTouch;
+  }
   function isRealLandscape() {
-    if (!isTouch) return false;
+    if (!isTouchNow()) return false;
     const vw = video.clientWidth;
     const vh = video.clientHeight;
     return vw > 0 && vh > 0 && (vw / vh) > 1.05;
@@ -423,10 +434,14 @@ export function createOverlay(canvas, video, images, opts = {}) {
       const countryName = team.country ? team.country.toUpperCase().replace(/-/g, ' ') : '';
       const chipText = [leagueName, countryName].filter(Boolean).join(' · ');
       if (chipText) {
-        // 30 px gap in portrait (36 − 6) between the team-name baseline
-        // and the pill top; 24 px in landscape. Comfortable visual
-        // breathing room without pushing the pill too far from the name.
-        const chipY = crestCy + frameSize * 0.48 + (isLandscape ? 30 : 36);
+        // Gap scales with ANDROID_SCALE so breathing room stays proportional
+        // to the team-name text height. At 1× (desktop) → 30/24 px gap,
+        // same as before. At 2× (Android) → 60/48 px gap, which clears
+        // the now-60 px-tall team-name text with ~10 px visual breathing
+        // room on both platforms.
+        const baseGap = isLandscape ? 24 : 30;
+        const scaledGap = Math.round(baseGap * ANDROID_SCALE);
+        const chipY = crestCy + frameSize * 0.48 + (isLandscape ? 4 : 6) + scaledGap;
         ctx.font = `500 ${Math.round(9 * ANDROID_SCALE)}px 'JetBrains Mono', monospace`;
         const chipW = ctx.measureText(chipText).width + 20;
         const chipH = Math.round(20 * ANDROID_SCALE);

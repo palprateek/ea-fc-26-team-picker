@@ -6,7 +6,7 @@
 //   - Same-origin assets (JS, CSS, fonts, sprite, manifest) → Stale-while-revalidate
 //   - Cross-origin (Google Fonts, MediaPipe CDN) → Cache-first with 30-day TTL
 
-const CACHE_VERSION = 'eafc-v2';
+const CACHE_VERSION = 'eafc-v6';
 const PRECACHE = [
   '/',
   '/index.html',

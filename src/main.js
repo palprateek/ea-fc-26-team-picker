@@ -32,11 +32,14 @@ const sm = createStateMachine();
 // compensates without affecting other platforms.
 const isAndroid = /Android/i.test(navigator.userAgent);
 
-// "Touch device" flag mirrors the CSS media query that gates the rotated
-// landscape SPIN button to (hover: none) and (pointer: coarse). Without
-// it, the canvas-side landscape check (canvas.width > canvas.height)
-// would rotate the banner on desktop landscape windows.
-const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+// Real Android Chrome + Vercel has been observed to return `false` from a
+// cached matchMedia('(hover: none) and (pointer: coarse)').matches while
+// the identical CSS @media query matches. Pass both signals to the
+// overlay: a live matchMedia handle (evaluated fresh each frame inside
+// isRealLandscape) and a UA-sniff fallback so landscape mode cannot be
+// blocked by a lying matchMedia.
+const touchMediaQuery = window.matchMedia('(hover: none) and (pointer: coarse)');
+const uaSaysTouch = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
 
 // Logo assets: a single sprite sheet + atlas index, plus a lazy-load map
 // for fallback. Loaded asynchronously AFTER the face model resolves so
@@ -51,7 +54,11 @@ const images = {
 // same cover-viewport math the browser uses to display the camera —
 // face positions from MediaPipe then map to the correct screen pixels
 // regardless of the camera's native resolution or aspect ratio.
-const overlay = createOverlay(canvas, video, images, { isAndroid, isTouchDevice });
+const overlay = createOverlay(canvas, video, images, {
+  isAndroid,
+  touchMediaQuery,
+  uaSaysTouch,
+});
 
 let detector = null;
 let faces = [];
