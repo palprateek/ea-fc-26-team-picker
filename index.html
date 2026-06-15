@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="AR filter that randomly assigns EA FC clubs to players via the camera. Spin the slot machine and get your team." />
+  <meta name="theme-color" content="#05070a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Team Picker" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+  <title>EA FC Team Picker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <video id="video" playsinline autoplay muted style="display:none"></video>
+    <canvas id="canvas"></canvas>
+
+    <div class="viewfinder-corners" id="viewfinderCorners">
+      <span class="corner tl"></span>
+      <span class="corner tr"></span>
+      <span class="corner bl"></span>
+      <span class="corner br"></span>
+    </div>
+
+    <div class="status-strip" id="statusStrip">
+      <span class="status-label"><span class="pulse-dot"></span>MATCHDAY · IDLE</span>
+      <span id="faceBadge" class="face-badge-inline">
+        <span class="face-badge-dot"></span>
+        <span id="faceBadgeText">FACES · 0</span>
+      </span>
+      <span class="live-badge"><span class="rec-dot"></span>CAM · LIVE</span>
+    </div>
+
+    <div id="leagueBar" class="league-bar">
+      <div id="leagueRow" class="chip-row"></div>
+      <div id="countryRow" class="chip-row"></div>
+    </div>
+
+    <div id="prompt" class="prompt">
+      <div class="prompt-target">
+        <span class="bracket tl"></span>
+        <span class="bracket tr"></span>
+        <span class="bracket bl"></span>
+        <span class="bracket br"></span>
+      </div>
+      <div class="prompt-text">GET IN THE FRAME</div>
+    </div>
+
+    <button id="spinBtn" class="spin-btn" disabled>
+      <span class="spin-label">SPIN</span>
+      <span class="spin-sub">TAP TO ASSIGN CLUB</span>
+    </button>
+    <button id="spinAgainBtn" class="spin-again-btn" style="display:none">
+      <span class="spin-label">SPIN AGAIN</span>
+      <span class="spin-sub">TAP TO RE-ROLL</span>
+    </button>
+
+    <div id="loadingScreen" class="loading-screen">
+      <div class="loading-corners">
+        <span class="corner tl"></span>
+        <span class="corner tr"></span>
+        <span class="corner bl"></span>
+        <span class="corner br"></span>
+      </div>
+      <div class="loading-top">
+        <span class="pulse-dot"></span>
+        <span class="mono-label">MATCHDAY · LOADING</span>
+      </div>
+      <div class="loading-hero">
+        <div class="loading-title">
+          <span class="title-line line-1">EA FC</span>
+          <span class="title-line line-2">TEAM PICKER</span>
+        </div>
+        <svg class="slot-shield" viewBox="0 0 120 140" width="72" height="84" aria-hidden="true">
+          <defs>
+            <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#c8ff00" stop-opacity="0.9" />
+              <stop offset="100%" stop-color="#c8ff00" stop-opacity="0.35" />
+            </linearGradient>
+          </defs>
+          <path d="M60 6 Q114 6 114 40 Q114 92 60 134 Q6 92 6 40 Q6 6 60 6 Z"
+                fill="none" stroke="url(#shieldGrad)" stroke-width="2.5" />
+          <circle cx="34" cy="64" r="7" fill="#c8ff00" />
+          <circle cx="60" cy="64" r="7" fill="#c8ff00" />
+          <circle cx="86" cy="64" r="7" fill="#c8ff00" />
+          <circle cx="34" cy="64" r="2" fill="#05070a" />
+          <circle cx="60" cy="64" r="2" fill="#05070a" />
+          <circle cx="86" cy="64" r="2" fill="#05070a" />
+        </svg>
+        <div class="progress-rail">
+          <div class="progress-fill" id="loadingProgress"></div>
+        </div>
+        <div class="loading-mono">SYNCHRONIZING DATABASE</div>
+      </div>
+      <div class="loading-footer">LICENSED CLUBS · 798+ TEAMS · EA FC 25</div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

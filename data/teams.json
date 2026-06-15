@@ -1,0 +1,6738 @@
+[
+  {
+    "id": 900001,
+    "name": "Aldosivi",
+    "logoPath": "/logos/aldosivi.png",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 111019,
+    "name": "Argentinos Juniors",
+    "logoPath": "/logos/argeninos-juniors.png",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 111708,
+    "name": "Atlético Tucumán",
+    "logoPath": "/logos/atletico-tucuman.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 110404,
+    "name": "Banfield",
+    "logoPath": "/logos/banfield.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 113044,
+    "name": "Barracas Central",
+    "logoPath": "/logos/barracas-central.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900002,
+    "name": "Belgrano de Córdoba",
+    "logoPath": "/logos/belgrano-de-cordoba.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 1877,
+    "name": "Boca Juniors",
+    "logoPath": "/logos/boca-juniors.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 112965,
+    "name": "Central Córdoba",
+    "logoPath": "/logos/central-cordoba.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900003,
+    "name": "Defensa y Justicia",
+    "logoPath": "/logos/defensa-y-justicia.png",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 115472,
+    "name": "Deportivo Riestra",
+    "logoPath": "/logos/deportivo-riestra.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 101083,
+    "name": "Estudiantes de La Plata",
+    "logoPath": "/logos/estudiantes-de-la-plata.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900004,
+    "name": "Gimnasia y Esgrima La Plata",
+    "logoPath": "/logos/gimnasia-y-esgrima.png",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 111706,
+    "name": "Godoy Cruz",
+    "logoPath": "/logos/godoy-cruz.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 111711,
+    "name": "Huracán",
+    "logoPath": "/logos/ca-huracan.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900005,
+    "name": "Independiente",
+    "logoPath": "/logos/independiente.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 111020,
+    "name": "Independiente Rivadavia",
+    "logoPath": "/logos/independiente-rivadavia.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900006,
+    "name": "Instituto de Córdoba",
+    "logoPath": "/logos/instituto-cordoba.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 110395,
+    "name": "Lanús",
+    "logoPath": "/logos/lanus.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900007,
+    "name": "Newell's Old Boys",
+    "logoPath": "/logos/newells-old-boys.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 112689,
+    "name": "Platense",
+    "logoPath": "/logos/platense.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900008,
+    "name": "Racing Club de Avellaneda",
+    "logoPath": "/logos/racing-club-ferrol.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 1876,
+    "name": "River Plate",
+    "logoPath": "/logos/river-plate.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 110580,
+    "name": "Rosario Central",
+    "logoPath": "/logos/rosario-central.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900009,
+    "name": "San Lorenzo de Almagro",
+    "logoPath": "/logos/san-lorenzo-de-almagro.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900010,
+    "name": "San Martín de San Juan",
+    "logoPath": "/logos/san-martin-san-juan.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 112713,
+    "name": "Sarmiento",
+    "logoPath": "/logos/sarmiento.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 900011,
+    "name": "Talleres de Córdoba",
+    "logoPath": "/logos/jaguares-de-cordoba.png",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 111715,
+    "name": "Tigre",
+    "logoPath": "/logos/tigre.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 110977,
+    "name": "Unión de Santa Fe",
+    "logoPath": "/logos/union-espanola.png",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 101088,
+    "name": "Vélez Sarsfield",
+    "logoPath": "/logos/velez-sarsfield.svg",
+    "country": "argentina",
+    "leagueId": 1000,
+    "leagueName": "Argentina Primera División (1)"
+  },
+  {
+    "id": 111393,
+    "name": "Adelaide United",
+    "logoPath": "/logos/adelaide-united.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 131739,
+    "name": "Auckland FC",
+    "logoPath": "/logos/auckland-fc.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 111395,
+    "name": "Brisbane Roar",
+    "logoPath": "/logos/brisbane-roar.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 111396,
+    "name": "Central Coast Mariners",
+    "logoPath": "/logos/central-coast-mariners.svg",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 114604,
+    "name": "Macarthur FC",
+    "logoPath": "/logos/macarthur-fc.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 112224,
+    "name": "Melbourne City",
+    "logoPath": "/logos/melbourne-city.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 111397,
+    "name": "Melbourne Victory",
+    "logoPath": "/logos/melbourne-victory.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 111398,
+    "name": "Newcastle Jets",
+    "logoPath": "/logos/newcastle-jets.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 111399,
+    "name": "Perth Glory",
+    "logoPath": "/logos/perth-glory.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 111400,
+    "name": "Sydney FC",
+    "logoPath": "/logos/sydney-fc.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 111766,
+    "name": "Wellington Phoenix",
+    "logoPath": "/logos/wellington-phoenix.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 900012,
+    "name": "Western Sydney Wanderers",
+    "logoPath": "/logos/western-sydney-wanderers.png",
+    "country": "australia",
+    "leagueId": 1001,
+    "leagueName": "Australia A-League (1)"
+  },
+  {
+    "id": 15009,
+    "name": "Altach",
+    "logoPath": "/logos/altach.svg",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 256,
+    "name": "Austria Wien",
+    "logoPath": "/logos/austria-wien.svg",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 110720,
+    "name": "Blau-Weiß Linz",
+    "logoPath": "/logos/bw-linz.png",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 113616,
+    "name": "Grazer AK",
+    "logoPath": "/logos/grazer-ak.svg",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 2017,
+    "name": "Hartberg",
+    "logoPath": "/logos/hartberg.png",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 252,
+    "name": "LASK",
+    "logoPath": "/logos/lask.svg",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 191,
+    "name": "RB Salzburg",
+    "logoPath": "/logos/salzburg.svg",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 254,
+    "name": "SK Rapid",
+    "logoPath": "/logos/rapid-vienna.png",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 900013,
+    "name": "SV Ried",
+    "logoPath": "/logos/sv_ried.svg",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 209,
+    "name": "Sturm Graz",
+    "logoPath": "/logos/sturm-graz.svg",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 112494,
+    "name": "WSG Tirol",
+    "logoPath": "/logos/tirol.png",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 111822,
+    "name": "Wolfsberger AC",
+    "logoPath": "/logos/wolfsberg.svg",
+    "country": "austria",
+    "leagueId": 1002,
+    "leagueName": "Austria Bundesliga (1)"
+  },
+  {
+    "id": 229,
+    "name": "Anderlecht",
+    "logoPath": "/logos/anderlecht.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 900014,
+    "name": "Antwerp",
+    "logoPath": "/logos/royal_antwerp.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 1750,
+    "name": "Cercle Brugge",
+    "logoPath": "/logos/cercle-brugge.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 670,
+    "name": "Charleroi",
+    "logoPath": "/logos/olympic-charleroi.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 231,
+    "name": "Club Brugge",
+    "logoPath": "/logos/club-brugge.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 537,
+    "name": "Dender",
+    "logoPath": "/logos/fcv-dender-eh.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 673,
+    "name": "Genk",
+    "logoPath": "/logos/genk.png",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 674,
+    "name": "Gent",
+    "logoPath": "/logos/gent.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 110724,
+    "name": "KV Mechelen",
+    "logoPath": "/logos/mechelen.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 100087,
+    "name": "OH Leuven",
+    "logoPath": "/logos/oud-heverlee-leuven.png",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 132231,
+    "name": "RAAL La Louvière",
+    "logoPath": "/logos/raal-la-louviere.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 900015,
+    "name": "Sint-Truiden",
+    "logoPath": "/logos/sint-truidense.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 232,
+    "name": "Standard Liège",
+    "logoPath": "/logos/standard-liege.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 900016,
+    "name": "Union Saint-Gilloise",
+    "logoPath": "/logos/union-saint-gilloise.png",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 681,
+    "name": "Westerlo",
+    "logoPath": "/logos/westerlo.png",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 15005,
+    "name": "Zulte Waregem",
+    "logoPath": "/logos/zulte-waregem.svg",
+    "country": "belgium",
+    "leagueId": 1003,
+    "leagueName": "Belgium Pro League (1)"
+  },
+  {
+    "id": 111768,
+    "name": "Beijing Guoan",
+    "logoPath": "/logos/beijing-guoan.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 111769,
+    "name": "Changchun Yatai",
+    "logoPath": "/logos/changchun-yatai.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 116360,
+    "name": "Chengdu Rongcheng F.C.",
+    "logoPath": "/logos/chengdu-rongcheng.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 900017,
+    "name": "Dalian Yingbo FC",
+    "logoPath": "/logos/dalian-yingbo.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 111779,
+    "name": "Henan FC",
+    "logoPath": "/logos/henan-songshan-longmen.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 114628,
+    "name": "Meizhou Hakka",
+    "logoPath": "/logos/meizhou-hakka.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 131173,
+    "name": "Qingdao Hainiu FC",
+    "logoPath": "/logos/qingdao-hainiu.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 131488,
+    "name": "Qingdao West Coast FC",
+    "logoPath": "/logos/qingdao-west-coast.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 900018,
+    "name": "Shandong Taishan",
+    "logoPath": "/logos/shandong-taishan.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 112540,
+    "name": "Shanghai Port",
+    "logoPath": "/logos/shanghai-port.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 110955,
+    "name": "Shanghai Shenhua",
+    "logoPath": "/logos/shanghai-shenhua.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 131487,
+    "name": "Shenzhen Peng City",
+    "logoPath": "/logos/shenzhen-xinpengcheng.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 900019,
+    "name": "Tianjin Jinmen Tiger",
+    "logoPath": "/logos/tianjin-jinmen-tiger.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 116361,
+    "name": "Wuhan Three Towns",
+    "logoPath": "/logos/wuhan-three-towns.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 900020,
+    "name": "Yunnan Yukun",
+    "logoPath": "/logos/yunnan-yukun.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 900021,
+    "name": "Zhejiang Professional FC",
+    "logoPath": "/logos/zhejiang-professional.png",
+    "country": "china",
+    "leagueId": 1004,
+    "leagueName": "China Super League (1)"
+  },
+  {
+    "id": 271,
+    "name": "AGF",
+    "logoPath": "/logos/agf.png",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 269,
+    "name": "Brøndby IF",
+    "logoPath": "/logos/brondby.svg",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 15006,
+    "name": "FC Fredericia",
+    "logoPath": "/logos/fredericia.png",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 819,
+    "name": "FC København",
+    "logoPath": "/logos/fc_kobenhavn.svg",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 900022,
+    "name": "FC Midtjylland",
+    "logoPath": "/logos/midtjylland.png",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 900023,
+    "name": "FC Nordsjælland",
+    "logoPath": "/logos/fc_nordsjaelland.svg",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 822,
+    "name": "Odense Boldklub",
+    "logoPath": "/logos/822.png",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 1786,
+    "name": "Randers FC",
+    "logoPath": "/logos/randers.png",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 270,
+    "name": "Silkeborg IF",
+    "logoPath": "/logos/silkeborg.png",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 900024,
+    "name": "Sønderjyske Fodbold",
+    "logoPath": "/logos/sonderjyske.svg",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 900025,
+    "name": "Vejle BK",
+    "logoPath": "/logos/vejle_bk.svg",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 1443,
+    "name": "Viborg FF",
+    "logoPath": "/logos/viborg.png",
+    "country": "denmark",
+    "leagueId": 1005,
+    "leagueName": "Denmark Superliga (1)"
+  },
+  {
+    "id": 88,
+    "name": "Birmingham City",
+    "logoPath": "/logos/birmingham.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 3,
+    "name": "Blackburn Rovers",
+    "logoPath": "/logos/blackburn-rovers.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1919,
+    "name": "Bristol City",
+    "logoPath": "/logos/bristol-city.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 89,
+    "name": "Charlton Athletic",
+    "logoPath": "/logos/charlton.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1800,
+    "name": "Coventry City",
+    "logoPath": "/logos/coventry-city.png",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 91,
+    "name": "Derby County",
+    "logoPath": "/logos/derby-county.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1952,
+    "name": "Hull City",
+    "logoPath": "/logos/hull-city.png",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 94,
+    "name": "Ipswich Town",
+    "logoPath": "/logos/ipswich.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 95,
+    "name": "Leicester City",
+    "logoPath": "/logos/leicester.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 12,
+    "name": "Middlesbrough",
+    "logoPath": "/logos/middlesbrough.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 97,
+    "name": "Millwall",
+    "logoPath": "/logos/millwall.png",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1792,
+    "name": "Norwich City",
+    "logoPath": "/logos/norwich-city.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1951,
+    "name": "Oxford United",
+    "logoPath": "/logos/oxford-united.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1790,
+    "name": "Portsmouth",
+    "logoPath": "/logos/portsmouth.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 900026,
+    "name": "Preston North End",
+    "logoPath": "/logos/preston-north-end.png",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 900027,
+    "name": "Queens Park Rangers",
+    "logoPath": "/logos/queens-park-rangers.png",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1794,
+    "name": "Sheffield United",
+    "logoPath": "/logos/sheffield-united.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1807,
+    "name": "Sheffield Wednesday",
+    "logoPath": "/logos/sheffield-wednesday.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 17,
+    "name": "Southampton",
+    "logoPath": "/logos/southampton.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1806,
+    "name": "Stoke City",
+    "logoPath": "/logos/stoke-city.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 1960,
+    "name": "Swansea City",
+    "logoPath": "/logos/swansea-city.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 753,
+    "name": "Watford",
+    "logoPath": "/logos/watford.svg",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 900028,
+    "name": "West Bromwich Albion",
+    "logoPath": "/logos/west-bromwich-albion.png",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 19,
+    "name": "Wrexham",
+    "logoPath": "/logos/wrexham.png",
+    "country": "england",
+    "leagueId": 1006,
+    "leagueName": "England Championship (2)"
+  },
+  {
+    "id": 112259,
+    "name": "AFC Wimbledon",
+    "logoPath": "/logos/afc-wimbledon.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1932,
+    "name": "Barnsley",
+    "logoPath": "/logos/barnsley.png",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1926,
+    "name": "Blackpool",
+    "logoPath": "/logos/blackpool.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 111001,
+    "name": "Bolton Wanderers",
+    "logoPath": "/logos/bolton-wanderers.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1804,
+    "name": "Bradford City",
+    "logoPath": "/logos/bradford.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 15015,
+    "name": "Burton Albion",
+    "logoPath": "/logos/burton_albion_fc.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1961,
+    "name": "Cardiff City",
+    "logoPath": "/logos/cardiff-city.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 142,
+    "name": "Doncaster Rovers",
+    "logoPath": "/logos/doncaster-rovers.png",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 143,
+    "name": "Exeter City",
+    "logoPath": "/logos/exeter.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1939,
+    "name": "Huddersfield Town",
+    "logoPath": "/logos/huddersfield.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1958,
+    "name": "Leyton Orient",
+    "logoPath": "/logos/leyton-orient.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 149,
+    "name": "Lincoln City",
+    "logoPath": "/logos/lincoln-city.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1923,
+    "name": "Luton Town",
+    "logoPath": "/logos/luton-town.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1940,
+    "name": "Mansfield Town",
+    "logoPath": "/logos/mansfield.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1930,
+    "name": "Northampton Town",
+    "logoPath": "/logos/northampton.png",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1938,
+    "name": "Peterborough United",
+    "logoPath": "/logos/peterborough.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1929,
+    "name": "Plymouth Argyle",
+    "logoPath": "/logos/plymouth-argyle.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1928,
+    "name": "Port Vale",
+    "logoPath": "/logos/port-vale.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1793,
+    "name": "Reading",
+    "logoPath": "/logos/reading.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1797,
+    "name": "Rotherham United",
+    "logoPath": "/logos/rotherham.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 361,
+    "name": "Stevenage",
+    "logoPath": "/logos/stevenage.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1931,
+    "name": "Stockport County",
+    "logoPath": "/logos/stockport-county.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 1917,
+    "name": "Wigan Athletic",
+    "logoPath": "/logos/wigan.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 112427,
+    "name": "Wycombe Wanderers",
+    "logoPath": "/logos/wycombe-wanderers.svg",
+    "country": "england",
+    "leagueId": 1007,
+    "leagueName": "England League One (3)"
+  },
+  {
+    "id": 110313,
+    "name": "Accrington Stanley",
+    "logoPath": "/logos/accrington.png",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 135,
+    "name": "Barnet",
+    "logoPath": "/logos/barnet.png",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 381,
+    "name": "Barrow",
+    "logoPath": "/logos/barrow.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1962,
+    "name": "Bristol Rovers",
+    "logoPath": "/logos/bristol-rovers.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 112764,
+    "name": "Bromley",
+    "logoPath": "/logos/bromley.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1944,
+    "name": "Cambridge United",
+    "logoPath": "/logos/cambridge-united.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1936,
+    "name": "Cheltenham Town",
+    "logoPath": "/logos/cheltenham.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1924,
+    "name": "Chesterfield",
+    "logoPath": "/logos/chesterfield.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1935,
+    "name": "Colchester United",
+    "logoPath": "/logos/colchester.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 110890,
+    "name": "Crawley Town",
+    "logoPath": "/logos/crawley-town.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 121,
+    "name": "Crewe Alexandra",
+    "logoPath": "/logos/crewe.png",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 112260,
+    "name": "Fleetwood Town",
+    "logoPath": "/logos/fleetwood-town.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1802,
+    "name": "Gillingham",
+    "logoPath": "/logos/gillingham.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 92,
+    "name": "Grimsby Town",
+    "logoPath": "/logos/grimsby.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 112222,
+    "name": "Harrogate Town",
+    "logoPath": "/logos/harrogate-town.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 900029,
+    "name": "Milton Keynes Dons",
+    "logoPath": "/logos/mk-dons.png",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 112254,
+    "name": "Newport County",
+    "logoPath": "/logos/newport.png",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1937,
+    "name": "Notts County",
+    "logoPath": "/logos/notts-county.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1920,
+    "name": "Oldham Athletic",
+    "logoPath": "/logos/oldham.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 113926,
+    "name": "Salford City",
+    "logoPath": "/logos/salford-city.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 127,
+    "name": "Shrewsbury Town",
+    "logoPath": "/logos/shrewsbury.png",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 900030,
+    "name": "Swindon Town",
+    "logoPath": "/logos/swindon-town.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 900031,
+    "name": "Tranmere Rovers",
+    "logoPath": "/logos/tranmere.png",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1803,
+    "name": "Walsall",
+    "logoPath": "/logos/walsall.svg",
+    "country": "england",
+    "leagueId": 1008,
+    "leagueName": "England League Two (4)"
+  },
+  {
+    "id": 1943,
+    "name": "AFC Bournemouth",
+    "logoPath": "/logos/bournemouth.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 1,
+    "name": "Arsenal",
+    "logoPath": "/logos/arsenal.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 2,
+    "name": "Aston Villa",
+    "logoPath": "/logos/aston-villa.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 1925,
+    "name": "Brentford",
+    "logoPath": "/logos/brentford.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 900032,
+    "name": "Brighton & Hove Albion",
+    "logoPath": "/logos/brighton_and_hove_albion_fc.png",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 1796,
+    "name": "Burnley",
+    "logoPath": "/logos/burnley.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 5,
+    "name": "Chelsea",
+    "logoPath": "/logos/chelsea.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 1799,
+    "name": "Crystal Palace",
+    "logoPath": "/logos/crystal-palace.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 7,
+    "name": "Everton",
+    "logoPath": "/logos/everton.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 144,
+    "name": "Fulham",
+    "logoPath": "/logos/fulham.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 8,
+    "name": "Leeds United",
+    "logoPath": "/logos/leeds-united.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 9,
+    "name": "Liverpool",
+    "logoPath": "/logos/liverpool.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 10,
+    "name": "Manchester City",
+    "logoPath": "/logos/manchester-city.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 11,
+    "name": "Manchester United",
+    "logoPath": "/logos/manchester_united_fc.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 1480,
+    "name": "Newcastle United",
+    "logoPath": "/logos/newcastle_united_fc.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 14,
+    "name": "Nottingham Forest",
+    "logoPath": "/logos/nottingham-forest.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 106,
+    "name": "Sunderland",
+    "logoPath": "/logos/sunderland.png",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 900033,
+    "name": "Tottenham Hotspur",
+    "logoPath": "/logos/tottenham.png",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 114023,
+    "name": "West Ham United",
+    "logoPath": "/logos/western-united.png",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 900034,
+    "name": "Wolverhampton Wanderers",
+    "logoPath": "/logos/wolverhampton_wanderers_fc.svg",
+    "country": "england",
+    "leagueId": 1009,
+    "leagueName": "England Premier League (1)"
+  },
+  {
+    "id": 111629,
+    "name": "Arsenal",
+    "logoPath": "/logos/arsenal.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 900035,
+    "name": "Aston Villa",
+    "logoPath": "/logos/aston-villa.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 900036,
+    "name": "Brighton & Hove Albion",
+    "logoPath": "/logos/brighton_and_hove_albion_fc.png",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 110915,
+    "name": "Chelsea",
+    "logoPath": "/logos/chelsea.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 900037,
+    "name": "Everton",
+    "logoPath": "/logos/everton.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 900038,
+    "name": "Leicester City",
+    "logoPath": "/logos/leicester.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 900039,
+    "name": "Liverpool",
+    "logoPath": "/logos/liverpool.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 132176,
+    "name": "London City Lionesses",
+    "logoPath": "/logos/132176.png",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 900040,
+    "name": "Manchester City",
+    "logoPath": "/logos/manchester-city.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 111138,
+    "name": "Manchester United",
+    "logoPath": "/logos/manchester_united_fc.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 900041,
+    "name": "Tottenham Hotspur",
+    "logoPath": "/logos/tottenham.png",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 900042,
+    "name": "West Ham United",
+    "logoPath": "/logos/west_ham_united_fc.svg",
+    "country": "england",
+    "leagueId": 1010,
+    "leagueName": "England WSL (1)"
+  },
+  {
+    "id": 116044,
+    "name": "AS Saint-Étienne",
+    "logoPath": "/logos/as-saint-etienne.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 116039,
+    "name": "Dijon FCO",
+    "logoPath": "/logos/dijon.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 116036,
+    "name": "FC Fleury 91",
+    "logoPath": "/logos/fc-fleury-91.png",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 71,
+    "name": "FC Nantes",
+    "logoPath": "/logos/nantes.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 1738,
+    "name": "Le Havre AC",
+    "logoPath": "/logos/le-havre-ac.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 70,
+    "name": "Montpellier HSC",
+    "logoPath": "/logos/montpellier.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 900043,
+    "name": "OL Lyonnes",
+    "logoPath": "/logos/olympique_lyonnais.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 900044,
+    "name": "Olympique de Marseille",
+    "logoPath": "/logos/olympique-dcheira.png",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 111817,
+    "name": "Paris FC",
+    "logoPath": "/logos/paris-fc.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 900045,
+    "name": "Paris Saint-Germain",
+    "logoPath": "/logos/paris-saint-germain.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 64,
+    "name": "RC Lens",
+    "logoPath": "/logos/rc-lens.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 76,
+    "name": "RC Strasbourg",
+    "logoPath": "/logos/rc-strasbourg-alsace.svg",
+    "country": "france",
+    "leagueId": 1011,
+    "leagueName": "France 1 Women's League (1)"
+  },
+  {
+    "id": 57,
+    "name": "AJ Auxerre",
+    "logoPath": "/logos/auxerre.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 69,
+    "name": "AS Monaco",
+    "logoPath": "/logos/as_monaco_fc.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 1530,
+    "name": "Angers SCO",
+    "logoPath": "/logos/angers.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 217,
+    "name": "FC Lorient",
+    "logoPath": "/logos/lorient.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 68,
+    "name": "FC Metz",
+    "logoPath": "/logos/fc-metz.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900046,
+    "name": "FC Nantes",
+    "logoPath": "/logos/nantes.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 65,
+    "name": "LOSC Lille",
+    "logoPath": "/logos/lille.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900047,
+    "name": "Le Havre AC",
+    "logoPath": "/logos/le-havre-ac.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 72,
+    "name": "OGC Nice",
+    "logoPath": "/logos/nice.png",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900048,
+    "name": "Olympique Lyonnais",
+    "logoPath": "/logos/lyon.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900049,
+    "name": "Olympique de Marseille",
+    "logoPath": "/logos/olympique-dcheira.png",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900050,
+    "name": "Paris FC",
+    "logoPath": "/logos/paris-fc.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900051,
+    "name": "Paris Saint-Germain",
+    "logoPath": "/logos/paris-saint-germain.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900052,
+    "name": "RC Lens",
+    "logoPath": "/logos/rc-lens.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900053,
+    "name": "RC Strasbourg",
+    "logoPath": "/logos/rc-strasbourg-alsace.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 378,
+    "name": "Stade Brestois 29",
+    "logoPath": "/logos/stade-briochin.png",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 74,
+    "name": "Stade Rennais",
+    "logoPath": "/logos/stade_rennais_fc.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 1809,
+    "name": "Toulouse FC",
+    "logoPath": "/logos/toulouse.svg",
+    "country": "france",
+    "leagueId": 1012,
+    "leagueName": "France Ligue 1 (1)"
+  },
+  {
+    "id": 900054,
+    "name": "AS Nancy",
+    "logoPath": "/logos/as_nancy_lorraine.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 1819,
+    "name": "AS Saint-Étienne",
+    "logoPath": "/logos/as-saint-etienne.png",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 1816,
+    "name": "Amiens SC",
+    "logoPath": "/logos/amiens.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 1815,
+    "name": "Clermont Foot",
+    "logoPath": "/logos/clermont-foot.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 294,
+    "name": "ESTAC Troyes",
+    "logoPath": "/logos/estac_troyes.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 62,
+    "name": "En Avant Guingamp",
+    "logoPath": "/logos/guingamp.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 900055,
+    "name": "FC Annecy",
+    "logoPath": "/logos/annecy.png",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 1805,
+    "name": "Grenoble Foot 38",
+    "logoPath": "/logos/grenoble-foot-38.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 1739,
+    "name": "Le Mans FC",
+    "logoPath": "/logos/le-mans.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 900056,
+    "name": "Montpellier HSC",
+    "logoPath": "/logos/montpellier.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 110321,
+    "name": "Pau FC",
+    "logoPath": "/logos/pau_fc.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 111273,
+    "name": "Red Star FC (FRANCE)",
+    "logoPath": "/logos/red_star_fc.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 900057,
+    "name": "Rodez Aveyron Football",
+    "logoPath": "/logos/rodez_aveyron_football.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 58,
+    "name": "SC Bastia",
+    "logoPath": "/logos/bastia.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 1814,
+    "name": "Stade Lavallois MFC",
+    "logoPath": "/logos/stade-lavallois.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 379,
+    "name": "Stade de Reims",
+    "logoPath": "/logos/stade-de-reims.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 132680,
+    "name": "US Boulogne",
+    "logoPath": "/logos/boulogne.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 900058,
+    "name": "USL Dunkerque",
+    "logoPath": "/logos/dunkerque.svg",
+    "country": "france",
+    "leagueId": 1013,
+    "leagueName": "France Ligue 2 (2)"
+  },
+  {
+    "id": 111235,
+    "name": "1. FC Heidenheim",
+    "logoPath": "/logos/fc-heidenheim.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 31,
+    "name": "1. FC Köln",
+    "logoPath": "/logos/1_fc_koeln.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 1831,
+    "name": "1. FC Union Berlin",
+    "logoPath": "/logos/union-berlin.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 169,
+    "name": "1. FSV Mainz 05",
+    "logoPath": "/logos/mainz-05.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 32,
+    "name": "Bayer 04 Leverkusen",
+    "logoPath": "/logos/bayer-leverkusen.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 21,
+    "name": "Bayern München",
+    "logoPath": "/logos/bayern-munchen.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 22,
+    "name": "Borussia Dortmund",
+    "logoPath": "/logos/borussia-dortmund.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 900059,
+    "name": "Borussia M'gladbach",
+    "logoPath": "/logos/borussia-monchengladbach.png",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 900060,
+    "name": "Eintracht Frankfurt",
+    "logoPath": "/logos/eintracht-frankfurt.png",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 100409,
+    "name": "FC Augsburg",
+    "logoPath": "/logos/fc_augsburg.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 110329,
+    "name": "FC St. Pauli",
+    "logoPath": "/logos/st-pauli.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 28,
+    "name": "Hamburger SV",
+    "logoPath": "/logos/hamburger-sv.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 112172,
+    "name": "RB Leipzig",
+    "logoPath": "/logos/rb-leipzig.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 25,
+    "name": "SC Freiburg",
+    "logoPath": "/logos/freiburg.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 10029,
+    "name": "TSG 1899 Hoffenheim",
+    "logoPath": "/logos/hoffenheim.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 36,
+    "name": "VfB Stuttgart",
+    "logoPath": "/logos/vfb-stuttgart.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 175,
+    "name": "VfL Wolfsburg",
+    "logoPath": "/logos/wolfsburg.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 38,
+    "name": "Werder Bremen",
+    "logoPath": "/logos/werder-bremen.svg",
+    "country": "germany",
+    "leagueId": 1014,
+    "leagueName": "Germany 1. Bundesliga (1)"
+  },
+  {
+    "id": 29,
+    "name": "1. FC Kaiserslautern",
+    "logoPath": "/logos/fc-kaiserslautern.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 110588,
+    "name": "1. FC Magdeburg",
+    "logoPath": "/logos/1-fc-magdeburg.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 171,
+    "name": "1. FC Nürnberg",
+    "logoPath": "/logos/fc-nurnberg.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 159,
+    "name": "Arminia Bielefeld",
+    "logoPath": "/logos/arminia-bielefeld.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 503,
+    "name": "Dynamo Dresden",
+    "logoPath": "/logos/dynamo-dresden.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 110500,
+    "name": "Eintracht Braunschweig",
+    "logoPath": "/logos/eintracht-braunschweig.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 34,
+    "name": "FC Schalke 04",
+    "logoPath": "/logos/schalke-04.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 110636,
+    "name": "Fortuna Düsseldorf",
+    "logoPath": "/logos/fortuna-dusseldorf.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 485,
+    "name": "Hannover 96",
+    "logoPath": "/logos/hannover-96.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 900061,
+    "name": "Hertha BSC",
+    "logoPath": "/logos/hertha-bsc.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 576,
+    "name": "Holstein Kiel",
+    "logoPath": "/logos/holstein-kiel.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 1832,
+    "name": "Karlsruher SC",
+    "logoPath": "/logos/karlsruher.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 531,
+    "name": "Preußen Münster",
+    "logoPath": "/logos/preussen-munster.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 10030,
+    "name": "SC Paderborn 07",
+    "logoPath": "/logos/paderborn.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 900062,
+    "name": "SV Darmstadt 98",
+    "logoPath": "/logos/darmstadt.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 580,
+    "name": "SV Elversberg",
+    "logoPath": "/logos/sv-elversberg.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 900063,
+    "name": "SpVgg Greuther Fürth",
+    "logoPath": "/logos/spvgg-greuther-furth.png",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 160,
+    "name": "VfL Bochum",
+    "logoPath": "/logos/vfl-bochum.svg",
+    "country": "germany",
+    "leagueId": 1015,
+    "leagueName": "Germany 2. Bundesliga (2)"
+  },
+  {
+    "id": 523,
+    "name": "1. FC Saarbrücken",
+    "logoPath": "/logos/saarbrucken.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 583,
+    "name": "1. FC Schweinfurt 05",
+    "logoPath": "/logos/1-fc-schweinfurt-05.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 1826,
+    "name": "Alemannia Aachen",
+    "logoPath": "/logos/alemannia-aachen.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 162,
+    "name": "Energie Cottbus",
+    "logoPath": "/logos/energie-cottbus.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 506,
+    "name": "Erzgebirge Aue",
+    "logoPath": "/logos/erzgebirge.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 111239,
+    "name": "FC Ingolstadt 04",
+    "logoPath": "/logos/ingolstadt.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 27,
+    "name": "Hansa Rostock",
+    "logoPath": "/logos/hansa-rostock.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 543,
+    "name": "Jahn Regensburg",
+    "logoPath": "/logos/ssv_jahn_regensburg.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 1825,
+    "name": "MSV Duisburg",
+    "logoPath": "/logos/msv-duisburg.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 526,
+    "name": "Rot-Weiß Essen",
+    "logoPath": "/logos/rot-weiss-oberhausen.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 110501,
+    "name": "SC Verl",
+    "logoPath": "/logos/sc_verl.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 110176,
+    "name": "SSV Ulm 1846",
+    "logoPath": "/logos/ssv-ulm-1846.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 900064,
+    "name": "SV Waldhof Mannheim",
+    "logoPath": "/logos/sv-waldhof-mannheim.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 492,
+    "name": "SV Wehen Wiesbaden",
+    "logoPath": "/logos/wiesbaden.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 110685,
+    "name": "TSG 1899 Hoffenheim II",
+    "logoPath": "/logos/hoffenheim.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 33,
+    "name": "TSV 1860 München",
+    "logoPath": "/logos/tsv-1860-munchen.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 110678,
+    "name": "TSV Havelse",
+    "logoPath": "/logos/tsv-havelse.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 110697,
+    "name": "VfB Stuttgart II",
+    "logoPath": "/logos/vfb-stuttgart.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 487,
+    "name": "VfL Osnabrück",
+    "logoPath": "/logos/osnabruck.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 110645,
+    "name": "Viktoria Köln",
+    "logoPath": "/logos/fc-viktoria-koln.svg",
+    "country": "germany",
+    "leagueId": 1016,
+    "leagueName": "Germany 3. Liga (3)"
+  },
+  {
+    "id": 900065,
+    "name": "1. FC Köln",
+    "logoPath": "/logos/1_fc_koeln.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900066,
+    "name": "1. FC Nürnberg",
+    "logoPath": "/logos/fc-nurnberg.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900067,
+    "name": "1. FC Union Berlin",
+    "logoPath": "/logos/union-berlin.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900068,
+    "name": "Bayer 04 Leverkusen",
+    "logoPath": "/logos/bayer-leverkusen.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900069,
+    "name": "Bayern München",
+    "logoPath": "/logos/bayern-munchen.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900070,
+    "name": "Eintracht Frankfurt",
+    "logoPath": "/logos/eintracht-frankfurt.png",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 116005,
+    "name": "FC Carl Zeiss Jena",
+    "logoPath": "/logos/fc_carl_zeiss_jena.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900071,
+    "name": "Hamburger SV",
+    "logoPath": "/logos/hamburger-sv.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900072,
+    "name": "RB Leipzig",
+    "logoPath": "/logos/rb-leipzig.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 110691,
+    "name": "SC Freiburg",
+    "logoPath": "/logos/freiburg.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 116001,
+    "name": "SGS Essen",
+    "logoPath": "/logos/essen.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900073,
+    "name": "TSG 1899 Hoffenheim",
+    "logoPath": "/logos/hoffenheim.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900074,
+    "name": "VfL Wolfsburg",
+    "logoPath": "/logos/wolfsburg.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 900075,
+    "name": "Werder Bremen",
+    "logoPath": "/logos/werder-bremen.svg",
+    "country": "germany",
+    "leagueId": 1017,
+    "leagueName": "Germany Frauen-Bundesliga (1)"
+  },
+  {
+    "id": 113302,
+    "name": "Bengaluru FC",
+    "logoPath": "/logos/bengaluru-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 113297,
+    "name": "Chennaiyin FC",
+    "logoPath": "/logos/chennaiyin-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 900076,
+    "name": "East Bengal FC",
+    "logoPath": "/logos/east-bengal-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 113298,
+    "name": "FC Goa",
+    "logoPath": "/logos/fc-goa.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 114168,
+    "name": "Jamshedpur FC",
+    "logoPath": "/logos/jamshedpur-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 113299,
+    "name": "Kerala Blasters FC",
+    "logoPath": "/logos/kerala-blasters-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 900077,
+    "name": "Mohammedan SC",
+    "logoPath": "/logos/mohammedan-sc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 900078,
+    "name": "Mohun Bagan Super Giant",
+    "logoPath": "/logos/mohun-bagan-super-giant.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 113300,
+    "name": "Mumbai City FC",
+    "logoPath": "/logos/mumbai-city-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 113040,
+    "name": "NorthEast United",
+    "logoPath": "/logos/northeast-united-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 113257,
+    "name": "Odisha FC",
+    "logoPath": "/logos/odisha-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 115202,
+    "name": "Punjab FC",
+    "logoPath": "/logos/punjab-fc.png",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 900079,
+    "name": "SC Delhi",
+    "logoPath": "/logos/sc_delhi_odisha_fc.svg",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 900080,
+    "name": "United Tigers SC",
+    "logoPath": "/logos/united_tigers_sc.svg",
+    "country": "india",
+    "leagueId": 1018,
+    "leagueName": "Indian Super League (1)"
+  },
+  {
+    "id": 1861,
+    "name": "Algeria",
+    "logoPath": "/logos/algeria.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 110374,
+    "name": "Argentina",
+    "logoPath": "/logos/argentina.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 1322,
+    "name": "Australia",
+    "logoPath": "/logos/australia.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900081,
+    "name": "Austria (National team)",
+    "logoPath": "/logos/austria-national-team.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900082,
+    "name": "Belgium",
+    "logoPath": "/logos/belgium.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900083,
+    "name": "Bosnia & Herzegovina",
+    "logoPath": "/logos/bosnia-herzegovina.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900084,
+    "name": "Brazil",
+    "logoPath": "/logos/brazil.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 77,
+    "name": "Cabo Verde",
+    "logoPath": "/logos/cabo-verde.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900085,
+    "name": "Canada",
+    "logoPath": "/logos/canada.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900086,
+    "name": "Colombia",
+    "logoPath": "/logos/colombia.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 111545,
+    "name": "Congo DR",
+    "logoPath": "/logos/congo-dr.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900087,
+    "name": "Croatia",
+    "logoPath": "/logos/croatia.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900088,
+    "name": "Curaçao",
+    "logoPath": "/logos/curacao.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900089,
+    "name": "Czech Republic",
+    "logoPath": "/logos/czech-republic.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900090,
+    "name": "Denmark",
+    "logoPath": "/logos/denmark.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900091,
+    "name": "Ecuador",
+    "logoPath": "/logos/ecuador.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900092,
+    "name": "Egypt",
+    "logoPath": "/logos/egypt.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 691,
+    "name": "England",
+    "logoPath": "/logos/england.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900093,
+    "name": "Finland",
+    "logoPath": "/logos/finland.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900094,
+    "name": "France",
+    "logoPath": "/logos/france.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900095,
+    "name": "Germany",
+    "logoPath": "/logos/germany.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900096,
+    "name": "Ghana",
+    "logoPath": "/logos/ghana.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 112048,
+    "name": "Haiti",
+    "logoPath": "/logos/haiti.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900097,
+    "name": "Holland",
+    "logoPath": "/logos/holland.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900098,
+    "name": "Hungary",
+    "logoPath": "/logos/hungary.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900099,
+    "name": "Iceland",
+    "logoPath": "/logos/iceland.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900100,
+    "name": "Indonesia",
+    "logoPath": "/logos/indonesia.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900101,
+    "name": "Iran",
+    "logoPath": "/logos/iran.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900102,
+    "name": "Iraq",
+    "logoPath": "/logos/iraq.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900103,
+    "name": "Italy",
+    "logoPath": "/logos/italy_national_football_team.svg",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900104,
+    "name": "Ivory Coast",
+    "logoPath": "/logos/ivory-coast.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900105,
+    "name": "Japan",
+    "logoPath": "/logos/japan.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900106,
+    "name": "Jordan",
+    "logoPath": "/logos/jordan.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900107,
+    "name": "Korea Republic",
+    "logoPath": "/logos/korea-republic.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900108,
+    "name": "Mexico",
+    "logoPath": "/logos/mexico.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900109,
+    "name": "Morocco",
+    "logoPath": "/logos/morocco.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900110,
+    "name": "New Zealand",
+    "logoPath": "/logos/new-zealand.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900111,
+    "name": "Northern Ireland",
+    "logoPath": "/logos/northern-ireland.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900112,
+    "name": "Norway",
+    "logoPath": "/logos/norway.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 50,
+    "name": "Panamá",
+    "logoPath": "/logos/panama.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900113,
+    "name": "Paraguay",
+    "logoPath": "/logos/paraguay.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900114,
+    "name": "Poland",
+    "logoPath": "/logos/poland.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900115,
+    "name": "Portugal",
+    "logoPath": "/logos/portugal.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900116,
+    "name": "Qatar",
+    "logoPath": "/logos/qatar-sc.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900117,
+    "name": "Republic of Ireland",
+    "logoPath": "/logos/republic-of-ireland.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900118,
+    "name": "Romania",
+    "logoPath": "/logos/romania.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900119,
+    "name": "Saudi Arabia",
+    "logoPath": "/logos/saudi-arabia.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900120,
+    "name": "Scotland",
+    "logoPath": "/logos/scotland.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900121,
+    "name": "Senegal",
+    "logoPath": "/logos/senegal.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 111099,
+    "name": "South Africa",
+    "logoPath": "/logos/south-africa.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900122,
+    "name": "Spain",
+    "logoPath": "/logos/spain.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900123,
+    "name": "Sweden",
+    "logoPath": "/logos/sweden.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900124,
+    "name": "Switzerland",
+    "logoPath": "/logos/switzerland.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900125,
+    "name": "Tunisia",
+    "logoPath": "/logos/tunisia.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900126,
+    "name": "Türkiye",
+    "logoPath": "/logos/turkiye.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900127,
+    "name": "Ukraine",
+    "logoPath": "/logos/ukraine.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900128,
+    "name": "United States",
+    "logoPath": "/logos/united-states.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900129,
+    "name": "Uruguay",
+    "logoPath": "/logos/uruguay.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 900130,
+    "name": "Uzbekistan",
+    "logoPath": "/logos/uzbekistan.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 110,
+    "name": "Wales",
+    "logoPath": "/logos/wales.png",
+    "country": "international",
+    "leagueId": 1019,
+    "leagueName": "International"
+  },
+  {
+    "id": 115845,
+    "name": "Bergamo Calcio",
+    "logoPath": "/logos/teramo-calcio-1913.png",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 189,
+    "name": "Bologna",
+    "logoPath": "/logos/bologna.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 1842,
+    "name": "Cagliari",
+    "logoPath": "/logos/cagliari.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 1745,
+    "name": "Como",
+    "logoPath": "/logos/como-1907.png",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 111434,
+    "name": "Cremonese",
+    "logoPath": "/logos/cremonese.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 900131,
+    "name": "Fiorentina",
+    "logoPath": "/logos/fiorentina.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 110556,
+    "name": "Genoa",
+    "logoPath": "/logos/genoa.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 206,
+    "name": "Hellas Verona",
+    "logoPath": "/logos/verona.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 45,
+    "name": "Juventus",
+    "logoPath": "/logos/juventus.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 115841,
+    "name": "Latium",
+    "logoPath": "/logos/ss_lazio.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 347,
+    "name": "Lecce",
+    "logoPath": "/logos/lecce.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 131682,
+    "name": "Lombardia FC",
+    "logoPath": "/logos/lombardia_fc.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 131681,
+    "name": "Milano FC",
+    "logoPath": "/logos/milan.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 116365,
+    "name": "Napoli",
+    "logoPath": "/logos/napoli.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 52,
+    "name": "Parma",
+    "logoPath": "/logos/parma.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 110738,
+    "name": "Pisa",
+    "logoPath": "/logos/pisa.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 114912,
+    "name": "Roma",
+    "logoPath": "/logos/roma.png",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 111974,
+    "name": "Sassuolo",
+    "logoPath": "/logos/sassuolo.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 54,
+    "name": "Torino",
+    "logoPath": "/logos/torino.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 55,
+    "name": "Udinese",
+    "logoPath": "/logos/udinese.svg",
+    "country": "italy",
+    "leagueId": 1020,
+    "leagueName": "Italy Serie A (1)"
+  },
+  {
+    "id": 2038,
+    "name": "Avellino",
+    "logoPath": "/logos/us-avellino-1912.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 1848,
+    "name": "Bari",
+    "logoPath": "/logos/bari.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 112493,
+    "name": "Carrarese",
+    "logoPath": "/logos/carrarese.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 110908,
+    "name": "Catanzaro",
+    "logoPath": "/logos/catanzaro.png",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 112168,
+    "name": "Cesena",
+    "logoPath": "/logos/cesena.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 1746,
+    "name": "Empoli",
+    "logoPath": "/logos/empoli.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 113147,
+    "name": "Entella",
+    "logoPath": "/logos/virtus-entella.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 111657,
+    "name": "Frosinone",
+    "logoPath": "/logos/frosinone.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 112124,
+    "name": "Juve Stabia",
+    "logoPath": "/logos/juve-stabia.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 111433,
+    "name": "Mantova",
+    "logoPath": "/logos/mantova-1911.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 1744,
+    "name": "Modena",
+    "logoPath": "/logos/modena.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 111811,
+    "name": "Monza",
+    "logoPath": "/logos/monza.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 900132,
+    "name": "Padova",
+    "logoPath": "/logos/padova.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 1843,
+    "name": "Palermo",
+    "logoPath": "/logos/palermo.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 200,
+    "name": "Pescara",
+    "logoPath": "/logos/pescara.png",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 110740,
+    "name": "Reggiana",
+    "logoPath": "/logos/reggiana.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 1837,
+    "name": "Sampdoria",
+    "logoPath": "/logos/sampdoria.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 113974,
+    "name": "Spezia",
+    "logoPath": "/logos/spezia.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 900133,
+    "name": "Südtirol",
+    "logoPath": "/logos/fc_sudtirol.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 205,
+    "name": "Venezia",
+    "logoPath": "/logos/venezia.svg",
+    "country": "italy",
+    "leagueId": 1021,
+    "leagueName": "Italy Serie B (2)"
+  },
+  {
+    "id": 1906,
+    "name": "AZ",
+    "logoPath": "/logos/az_alkmaar.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 245,
+    "name": "Ajax",
+    "logoPath": "/logos/ajax.png",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 1971,
+    "name": "Excelsior",
+    "logoPath": "/logos/excelsior-maassluis.png",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 1915,
+    "name": "FC Groningen",
+    "logoPath": "/logos/fc-groningen.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 1908,
+    "name": "FC Twente",
+    "logoPath": "/logos/twente.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 1903,
+    "name": "FC Utrecht",
+    "logoPath": "/logos/fc-utrecht.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 645,
+    "name": "FC Volendam",
+    "logoPath": "/logos/volendam.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 246,
+    "name": "Feyenoord",
+    "logoPath": "/logos/feyenoord.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 634,
+    "name": "Fortuna Sittard",
+    "logoPath": "/logos/fortuna-sittard.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 100632,
+    "name": "Go Ahead Eagles",
+    "logoPath": "/logos/go-ahead-eagles.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 100634,
+    "name": "Heracles Almelo",
+    "logoPath": "/logos/heracles-almelo.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 1910,
+    "name": "N.E.C. Nijmegen",
+    "logoPath": "/logos/nec-nijmegen.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 1904,
+    "name": "NAC Breda",
+    "logoPath": "/logos/nac-breda.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 1914,
+    "name": "PEC Zwolle",
+    "logoPath": "/logos/pec-zwolle.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 247,
+    "name": "PSV",
+    "logoPath": "/logos/psv_eindhoven.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 100646,
+    "name": "Sparta Rotterdam",
+    "logoPath": "/logos/sparta-rotterdam.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 100638,
+    "name": "Telstar",
+    "logoPath": "/logos/telstar.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 1913,
+    "name": "sc Heerenveen",
+    "logoPath": "/logos/sc-heerenveen.svg",
+    "country": "netherlands",
+    "leagueId": 1022,
+    "leagueName": "Holland Eredivisie (1)"
+  },
+  {
+    "id": 900134,
+    "name": "Bryne FK",
+    "logoPath": "/logos/bryne.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 918,
+    "name": "FK Bodø/Glimt",
+    "logoPath": "/logos/bodo-glimt.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 1463,
+    "name": "FK Haugesund",
+    "logoPath": "/logos/haugesund.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 900135,
+    "name": "Fredrikstad FK",
+    "logoPath": "/logos/fredrikstad.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 1756,
+    "name": "HamKam Fotball",
+    "logoPath": "/logos/1756.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 131491,
+    "name": "KFUM-Kameratene Oslo",
+    "logoPath": "/logos/kfum_kameratene_oslo.svg",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 113459,
+    "name": "Kristiansund BK",
+    "logoPath": "/logos/kristiansund.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 417,
+    "name": "Molde FK",
+    "logoPath": "/logos/molde.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 298,
+    "name": "Rosenborg BK",
+    "logoPath": "/logos/rosenborg.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 919,
+    "name": "SK Brann",
+    "logoPath": "/logos/brann.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 1757,
+    "name": "Sandefjord Fotball",
+    "logoPath": "/logos/sandefjord.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 112199,
+    "name": "Sarpsborg 08",
+    "logoPath": "/logos/sarpsborg.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 900136,
+    "name": "Strømsgodset Toppfotball",
+    "logoPath": "/logos/stromsgodset_if.svg",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 418,
+    "name": "Tromsø IL",
+    "logoPath": "/logos/tromso_il.svg",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 300,
+    "name": "Viking FK",
+    "logoPath": "/logos/viking.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 920,
+    "name": "Vålerenga Fotball",
+    "logoPath": "/logos/valerenga.png",
+    "country": "norway",
+    "leagueId": 1023,
+    "leagueName": "Norway Eliteserien (1)"
+  },
+  {
+    "id": 111082,
+    "name": "Arka Gdynia",
+    "logoPath": "/logos/arka.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 112510,
+    "name": "Bruk-Bet Termalica Nieciecza",
+    "logoPath": "/logos/bruk-bet-termalica-nieciecza.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 110747,
+    "name": "Cracovia",
+    "logoPath": "/logos/cracovia.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 110206,
+    "name": "GKS Katowice",
+    "logoPath": "/logos/katowice.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 420,
+    "name": "Górnik Zabrze",
+    "logoPath": "/logos/gornik-zabrze.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 110745,
+    "name": "Jagiellonia Białystok",
+    "logoPath": "/logos/jagiellonia.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 111083,
+    "name": "Korona Kielce",
+    "logoPath": "/logos/korona-kielce.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 900137,
+    "name": "Lech Poznań",
+    "logoPath": "/logos/lech_poznan.svg",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 900138,
+    "name": "Lechia Gdańsk",
+    "logoPath": "/logos/lechia.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 1871,
+    "name": "Legia Warszawa",
+    "logoPath": "/logos/legia-warszawa.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 111097,
+    "name": "Motor Lublin",
+    "logoPath": "/logos/motor-lublin.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 111086,
+    "name": "Piast Gliwice",
+    "logoPath": "/logos/piast.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 110746,
+    "name": "Pogoń Szczecin",
+    "logoPath": "/logos/pogon.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 900139,
+    "name": "Radomiak Radom",
+    "logoPath": "/logos/radomiak_radom.svg",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 900140,
+    "name": "Raków Częstochowa",
+    "logoPath": "/logos/rakow_czestochowa.svg",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 301,
+    "name": "Widzew Łódź",
+    "logoPath": "/logos/widzew.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 1569,
+    "name": "Wisła Płock",
+    "logoPath": "/logos/wisla_plock.svg",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 110749,
+    "name": "Zagłębie Lubin",
+    "logoPath": "/logos/zaglebie-lubin.png",
+    "country": "poland",
+    "leagueId": 1024,
+    "leagueName": "Poland Ekstraklasa (1)"
+  },
+  {
+    "id": 131463,
+    "name": "AVS Futebol SAD",
+    "logoPath": "/logos/avs-futebol-sad.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 717,
+    "name": "Alverca",
+    "logoPath": "/logos/alverca.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 112513,
+    "name": "Arouca",
+    "logoPath": "/logos/arouca.png",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 234,
+    "name": "Benfica",
+    "logoPath": "/logos/benfica.png",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 114510,
+    "name": "Casa Pia",
+    "logoPath": "/logos/casa-pia-ac.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 10020,
+    "name": "Estoril",
+    "logoPath": "/logos/estoril.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 718,
+    "name": "Estrela da Amadora",
+    "logoPath": "/logos/estrela-da-amadora.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 236,
+    "name": "FC Porto",
+    "logoPath": "/logos/fc-porto.png",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 112809,
+    "name": "Famalicão",
+    "logoPath": "/logos/famalicao.png",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 1888,
+    "name": "Gil Vicente FC",
+    "logoPath": "/logos/gil-vicente.png",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 1900,
+    "name": "Moreirense",
+    "logoPath": "/logos/moreirense.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 900141,
+    "name": "Nacional da Madeira",
+    "logoPath": "/logos/nacional-da-madeira.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 744,
+    "name": "Rio Ave",
+    "logoPath": "/logos/rio-ave.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 1438,
+    "name": "Santa Clara",
+    "logoPath": "/logos/santa-clara.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 237,
+    "name": "Sporting CP",
+    "logoPath": "/logos/sporting-cp.png",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 900142,
+    "name": "Sporting de Braga",
+    "logoPath": "/logos/sporting-jax.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 112516,
+    "name": "Tondela",
+    "logoPath": "/logos/tondela.svg",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 900143,
+    "name": "Vitória de Guimarães",
+    "logoPath": "/logos/vitoria-de-guimaraes.png",
+    "country": "portugal",
+    "leagueId": 1025,
+    "leagueName": "Portugal Primeira Liga (1)"
+  },
+  {
+    "id": 305,
+    "name": "Bohemians",
+    "logoPath": "/logos/bohemian.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 422,
+    "name": "Cork City",
+    "logoPath": "/logos/cork-city.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 445,
+    "name": "Derry City",
+    "logoPath": "/logos/derry-city.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 1572,
+    "name": "Drogheda United",
+    "logoPath": "/logos/drogheda-united.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 1571,
+    "name": "Galway United",
+    "logoPath": "/logos/galway-united.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 306,
+    "name": "Shamrock Rovers",
+    "logoPath": "/logos/shamrock-rovers.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 834,
+    "name": "Shelbourne",
+    "logoPath": "/logos/shelbourne.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 563,
+    "name": "Sligo Rovers",
+    "logoPath": "/logos/sligo-rovers.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 900144,
+    "name": "St Patrick's Athletic",
+    "logoPath": "/logos/st-patricks-athletic.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 900145,
+    "name": "Waterford",
+    "logoPath": "/logos/waterford.png",
+    "country": "republic-of-ireland",
+    "leagueId": 1026,
+    "leagueName": "Rep. Ireland Premier Division (1)"
+  },
+  {
+    "id": 900146,
+    "name": "AEK",
+    "logoPath": "/logos/aek_athens_fc.svg",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 900147,
+    "name": "APOEL Nicosia FC",
+    "logoPath": "/logos/apoel_fc.svg",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 111701,
+    "name": "Al Ain FC (UAE)",
+    "logoPath": "/logos/al_ain_fc.svg",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 101100,
+    "name": "Atlético Nacional",
+    "logoPath": "/logos/el-nacional.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 1598,
+    "name": "Bahia",
+    "logoPath": "/logos/bahia.svg",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 900148,
+    "name": "Buriram United",
+    "logoPath": "/logos/madura-united.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 211,
+    "name": "Dinamo Zagreb",
+    "logoPath": "/logos/dinamo-zagreb.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 101047,
+    "name": "Dynamo Kyiv",
+    "logoPath": "/logos/dynamo-kyiv.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 1874,
+    "name": "Ferencvárosi TC",
+    "logoPath": "/logos/ferencvaros.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 100325,
+    "name": "HJK Helsinki",
+    "logoPath": "/logos/100325.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 263,
+    "name": "Hajduk Split",
+    "logoPath": "/logos/hajduk-split.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 900149,
+    "name": "MLS All Stars",
+    "logoPath": "/logos/mls_all_stars.svg",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 280,
+    "name": "Olympiacos",
+    "logoPath": "/logos/olympiacos.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 393,
+    "name": "PAOK",
+    "logoPath": "/logos/paok.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 1884,
+    "name": "Panathinaikos",
+    "logoPath": "/logos/panathinaikos.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 113888,
+    "name": "Qarabağ FK",
+    "logoPath": "/logos/qarabag_fk.svg",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 101059,
+    "name": "Shakhtar Donetsk",
+    "logoPath": "/logos/shakhtar.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 267,
+    "name": "Slavia Praha",
+    "logoPath": "/logos/slavia-praha.svg",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 900150,
+    "name": "Sparta Praha",
+    "logoPath": "/logos/sparta-praha.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 110468,
+    "name": "Viktoria Plzeň",
+    "logoPath": "/logos/viktoria-plzen.png",
+    "country": "rest-of-world",
+    "leagueId": 1027,
+    "leagueName": "Rest of World"
+  },
+  {
+    "id": 900151,
+    "name": "Bayern München Historic",
+    "logoPath": "/logos/bayern-munchen.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900152,
+    "name": "Bundesliga Historic",
+    "logoPath": "/logos/bundesliga.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900153,
+    "name": "Chelsea Historic",
+    "logoPath": "/logos/chelsea.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900154,
+    "name": "Classic XI",
+    "logoPath": "/logos/classic_xi.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900155,
+    "name": "Juventus Historic",
+    "logoPath": "/logos/juventus.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900156,
+    "name": "La Liga Historic",
+    "logoPath": "/logos/la-liga.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900157,
+    "name": "Ligue 1 Historic",
+    "logoPath": "/logos/ligue-1.png",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900158,
+    "name": "Liverpool Historic",
+    "logoPath": "/logos/liverpool.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900159,
+    "name": "Premier League Historic",
+    "logoPath": "/logos/premier-soccer-league.png",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 243,
+    "name": "Real Madrid Historic",
+    "logoPath": "/logos/real-madrid.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900160,
+    "name": "Serie A Historic",
+    "logoPath": "/logos/serie-a.png",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 900161,
+    "name": "Soccer Aid",
+    "logoPath": "/logos/soccer_aid.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 95829,
+    "name": "Zlatan FC",
+    "logoPath": "/logos/zlatan_fc.svg",
+    "country": "rest-of-world",
+    "leagueId": 1028,
+    "leagueName": "Rest of World Custom"
+  },
+  {
+    "id": 114385,
+    "name": "CFR Cluj",
+    "logoPath": "/logos/cfr-cluj.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 900162,
+    "name": "Dinamo București",
+    "logoPath": "/logos/dinamo-bucuresti.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 100759,
+    "name": "FC Argeș",
+    "logoPath": "/logos/fcs_arges.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 110752,
+    "name": "FC Botoșani",
+    "logoPath": "/logos/botosani.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 114147,
+    "name": "FC Hermannstadt",
+    "logoPath": "/logos/hermannstadt.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 310,
+    "name": "FC Rapid",
+    "logoPath": "/logos/rapid_bucuresti.svg",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 100761,
+    "name": "FCSB",
+    "logoPath": "/logos/fcsb.svg",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 114546,
+    "name": "FK Csíkszereda Miercurea Ciuc",
+    "logoPath": "/logos/114546.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 900163,
+    "name": "Farul Constanța",
+    "logoPath": "/logos/farul-constanta.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 114545,
+    "name": "Metaloglobus București",
+    "logoPath": "/logos/metaloglobus.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 900164,
+    "name": "Petrolul Ploiești",
+    "logoPath": "/logos/petrolul-ploiesti.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 110072,
+    "name": "SC Oțelul Galați",
+    "logoPath": "/logos/otelul.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 110750,
+    "name": "UTA Arad",
+    "logoPath": "/logos/uta.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 131459,
+    "name": "Unirea Slobozia",
+    "logoPath": "/logos/unirea-slobozia.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 900165,
+    "name": "Universitatea Cluj",
+    "logoPath": "/logos/u-cluj.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 111014,
+    "name": "Universitatea Craiova",
+    "logoPath": "/logos/u-craiova.png",
+    "country": "romania",
+    "leagueId": 1029,
+    "leagueName": "Romania Liga I (1)"
+  },
+  {
+    "id": 112387,
+    "name": "Al Ahli",
+    "logoPath": "/logos/al-ahli.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 112096,
+    "name": "Al Ettifaq",
+    "logoPath": "/logos/al-ettifaq.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 112390,
+    "name": "Al Fateh",
+    "logoPath": "/logos/al-fateh.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 113057,
+    "name": "Al Fayha",
+    "logoPath": "/logos/al-fayha.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 113222,
+    "name": "Al Hazem",
+    "logoPath": "/logos/al-hazem.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 605,
+    "name": "Al Hilal",
+    "logoPath": "/logos/al-hilal.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 607,
+    "name": "Al Ittihad",
+    "logoPath": "/logos/al-ittihad.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 112883,
+    "name": "Al Khaleej",
+    "logoPath": "/logos/al-khaleej.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 131735,
+    "name": "Al Kholood",
+    "logoPath": "/logos/al-kholood.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 115892,
+    "name": "Al Najmah",
+    "logoPath": "/logos/al-najma.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 112139,
+    "name": "Al Nassr",
+    "logoPath": "/logos/al-nassr.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 113060,
+    "name": "Al Okhdood",
+    "logoPath": "/logos/al-okhdood.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 112391,
+    "name": "Al Qadsiah",
+    "logoPath": "/logos/al-qadsiah.png",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 113037,
+    "name": "Al Riyadh",
+    "logoPath": "/logos/al-riyadh.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 111674,
+    "name": "Al Shabab",
+    "logoPath": "/logos/al-shabab.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 112393,
+    "name": "Al Taawoun",
+    "logoPath": "/logos/al-taawoun.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 113217,
+    "name": "Damac FC",
+    "logoPath": "/logos/damac.svg",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 131798,
+    "name": "NEOM SC",
+    "logoPath": "/logos/neom.png",
+    "country": "saudi-arabia",
+    "leagueId": 1030,
+    "leagueName": "Saudi Pro League (1)"
+  },
+  {
+    "id": 900166,
+    "name": "Aberdeen",
+    "logoPath": "/logos/aberdeen.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 78,
+    "name": "Celtic",
+    "logoPath": "/logos/celtic.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 180,
+    "name": "Dundee FC",
+    "logoPath": "/logos/dundee-united.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 688,
+    "name": "Dundee United",
+    "logoPath": "/logos/dc-united.png",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 79,
+    "name": "Falkirk",
+    "logoPath": "/logos/falkirk.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 900167,
+    "name": "Heart of Midlothian",
+    "logoPath": "/logos/heart_of_midlothian.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 81,
+    "name": "Hibernian",
+    "logoPath": "/logos/hibernian.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 82,
+    "name": "Kilmarnock",
+    "logoPath": "/logos/kilmarnock.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 621,
+    "name": "Livingston",
+    "logoPath": "/logos/livingston.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 83,
+    "name": "Motherwell",
+    "logoPath": "/logos/motherwell.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 86,
+    "name": "Rangers",
+    "logoPath": "/logos/rangers.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 100805,
+    "name": "St. Mirren",
+    "logoPath": "/logos/st-mirren.svg",
+    "country": "scotland",
+    "leagueId": 1031,
+    "leagueName": "Scotland Premiership (1)"
+  },
+  {
+    "id": 114577,
+    "name": "Always Ready",
+    "logoPath": "/logos/always-ready.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 110981,
+    "name": "Barcelona SC Guayaquil",
+    "logoPath": "/logos/barcelona.svg",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 110968,
+    "name": "Bolívar",
+    "logoPath": "/logos/bolivar.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 112716,
+    "name": "Cerro Porteño",
+    "logoPath": "/logos/cerro-porteno.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 112705,
+    "name": "Coquimbo Unido",
+    "logoPath": "/logos/coquimbo-unido.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 1041,
+    "name": "Corinthians",
+    "logoPath": "/logos/corinthians.svg",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 568,
+    "name": "Cruzeiro",
+    "logoPath": "/logos/cruzeiro.svg",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 900168,
+    "name": "Cusco FC",
+    "logoPath": "/logos/cusco.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 111722,
+    "name": "Deportes Tolima",
+    "logoPath": "/logos/deportes-tolima.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 112853,
+    "name": "Deportivo La Guaira",
+    "logoPath": "/logos/deportivo-la-guaira.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 1043,
+    "name": "Flamengo",
+    "logoPath": "/logos/flamengo.svg",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 567,
+    "name": "Fluminense",
+    "logoPath": "/logos/fluminense.svg",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 101103,
+    "name": "Independiente Medellín",
+    "logoPath": "/logos/independiente-medellin.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 900169,
+    "name": "Independiente Santa Fe",
+    "logoPath": "/logos/independiente-santa-fe.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 900170,
+    "name": "Independiente del Valle",
+    "logoPath": "/logos/independiente-del-valle.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 900171,
+    "name": "Junior de Barranquilla",
+    "logoPath": "/logos/junior_barranquilla.svg",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 110986,
+    "name": "LDU Quito",
+    "logoPath": "/logos/liga-de-quito.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 111008,
+    "name": "Libertad",
+    "logoPath": "/logos/libertad.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 900172,
+    "name": "Mirassol",
+    "logoPath": "/logos/mirassol.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 1891,
+    "name": "Nacional",
+    "logoPath": "/logos/nacional.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 383,
+    "name": "Palmeiras",
+    "logoPath": "/logos/palmeiras.svg",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 101110,
+    "name": "Peñarol",
+    "logoPath": "/logos/penarol.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 111013,
+    "name": "Sporting Cristal",
+    "logoPath": "/logos/sporting-cristal.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 110975,
+    "name": "Universidad Católica",
+    "logoPath": "/logos/universidad-catolica.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 900173,
+    "name": "Universidad Central de Venezuela",
+    "logoPath": "/logos/universidad-central.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 900174,
+    "name": "Universitario de Deportes",
+    "logoPath": "/logos/universitario.png",
+    "country": "south-america",
+    "leagueId": 1032,
+    "leagueName": "CONMEBOL Libertadores"
+  },
+  {
+    "id": 114611,
+    "name": "Academia Puerto Cabello",
+    "logoPath": "/logos/academia-puerto-cabello.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 900175,
+    "name": "Alianza Atlético de Sullana",
+    "logoPath": "/logos/alianza-atletico.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 101099,
+    "name": "América de Cali",
+    "logoPath": "/logos/america-de-cali.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 1035,
+    "name": "Atlético Mineiro",
+    "logoPath": "/logos/atletico-mineiro.svg",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 101097,
+    "name": "Audax Italiano",
+    "logoPath": "/logos/audax-italiano.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 110967,
+    "name": "Blooming",
+    "logoPath": "/logos/blooming.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 112868,
+    "name": "Boston River",
+    "logoPath": "/logos/boston-river.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 517,
+    "name": "Botafogo",
+    "logoPath": "/logos/botafogo-sp.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 110991,
+    "name": "Carabobo FC",
+    "logoPath": "/logos/carabobo.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 110989,
+    "name": "Caracas FC",
+    "logoPath": "/logos/caracas.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 111011,
+    "name": "Cienciano",
+    "logoPath": "/logos/cienciano-del-cusco.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 91580,
+    "name": "Deportivo Cuenca",
+    "logoPath": "/logos/deportivo-la-coruna.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 1629,
+    "name": "Grêmio",
+    "logoPath": "/logos/gremio.svg",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 900176,
+    "name": "Independiente Petrolero",
+    "logoPath": "/logos/independiente-petrolero.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 900177,
+    "name": "Juventud de Las Piedras",
+    "logoPath": "/logos/juventud_de_las_piedras.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 900178,
+    "name": "Macará",
+    "logoPath": "/logos/macara.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 101105,
+    "name": "Millonarios",
+    "logoPath": "/logos/millonarios.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 900179,
+    "name": "Montevideo City Torque",
+    "logoPath": "/logos/montevideo-city-torque.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 900180,
+    "name": "O'Higgins",
+    "logoPath": "/logos/ohiggins_fc.svg",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 900181,
+    "name": "Olimpia Asunción",
+    "logoPath": "/logos/olimpia.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 111328,
+    "name": "Palestino",
+    "logoPath": "/logos/palestino.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 112472,
+    "name": "RB Bragantino",
+    "logoPath": "/logos/rb-bragantino.svg",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 900182,
+    "name": "Recoleta FC",
+    "logoPath": "/logos/recoleta_fc.png",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 1053,
+    "name": "Santos",
+    "logoPath": "/logos/santos.svg",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 598,
+    "name": "São Paulo",
+    "logoPath": "/logos/sao-paulo.svg",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 569,
+    "name": "Vasco da Gama",
+    "logoPath": "/logos/vasco-da-gama.svg",
+    "country": "south-america",
+    "leagueId": 1033,
+    "leagueName": "CONMEBOL Sudamericana"
+  },
+  {
+    "id": 2056,
+    "name": "Daegu FC",
+    "logoPath": "/logos/daegu-fc.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 980,
+    "name": "Daejeon Hana Citizen",
+    "logoPath": "/logos/daejeon-hana-citizen.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 112555,
+    "name": "FC Anyang",
+    "logoPath": "/logos/fc-anyang.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 982,
+    "name": "FC Seoul",
+    "logoPath": "/logos/fc-seoul.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 112115,
+    "name": "Gangwon FC",
+    "logoPath": "/logos/gangwon-fc.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 2055,
+    "name": "Gimcheon Sangmu",
+    "logoPath": "/logos/gimcheon-sangmu-fc.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 112258,
+    "name": "Gwangju FC",
+    "logoPath": "/logos/gwangju-fc.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 900183,
+    "name": "Jeju SK FC",
+    "logoPath": "/logos/jeju-sk-fc.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 1477,
+    "name": "Jeonbuk Hyundai Motors",
+    "logoPath": "/logos/jeonbuk.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 1474,
+    "name": "Pohang Steelers",
+    "logoPath": "/logos/pohang-steelers.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 112558,
+    "name": "Suwon FC",
+    "logoPath": "/logos/suwon-fc.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 900184,
+    "name": "Ulsan HD FC",
+    "logoPath": "/logos/ulsan-hd-fc.png",
+    "country": "south-korea",
+    "leagueId": 1034,
+    "leagueName": "Korea K League 1 (1)"
+  },
+  {
+    "id": 131511,
+    "name": "Alhama FC",
+    "logoPath": "/logos/alhama_cf.png",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 448,
+    "name": "Athletic Club de Bilbao",
+    "logoPath": "/logos/athletic-club.png",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 240,
+    "name": "Atlético de Madrid",
+    "logoPath": "/logos/atletico-madrid.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 260,
+    "name": "Costa Adeje Tenerife",
+    "logoPath": "/logos/cd_tenerife.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 132629,
+    "name": "DUX Logroño",
+    "logoPath": "/logos/dux_logrono.png",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 900185,
+    "name": "FC Badalona Women",
+    "logoPath": "/logos/badalona.png",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 241,
+    "name": "FC Barcelona",
+    "logoPath": "/logos/barcelona.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 110832,
+    "name": "Granada CF",
+    "logoPath": "/logos/granada.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 1853,
+    "name": "Levante UD",
+    "logoPath": "/logos/levante.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 116334,
+    "name": "Madrid CFF",
+    "logoPath": "/logos/madrid_cff.png",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 242,
+    "name": "RC Deportivo",
+    "logoPath": "/logos/cucuta-deportivo.png",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 452,
+    "name": "RCD Espanyol",
+    "logoPath": "/logos/espanyol.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 900186,
+    "name": "Real Madrid",
+    "logoPath": "/logos/real-madrid.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 457,
+    "name": "Real Sociedad",
+    "logoPath": "/logos/real-sociedad.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 467,
+    "name": "SD Eibar",
+    "logoPath": "/logos/eibar.svg",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 481,
+    "name": "Sevilla FC",
+    "logoPath": "/logos/sevilla.png",
+    "country": "spain",
+    "leagueId": 1035,
+    "leagueName": "Spain Liga F Femenina (1)"
+  },
+  {
+    "id": 900187,
+    "name": "Athletic Club de Bilbao",
+    "logoPath": "/logos/athletic-club.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 900188,
+    "name": "Atlético de Madrid",
+    "logoPath": "/logos/atletico-madrid.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 479,
+    "name": "CA Osasuna",
+    "logoPath": "/logos/osasuna.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 900189,
+    "name": "Deportivo Alavés",
+    "logoPath": "/logos/deportivo.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 468,
+    "name": "Elche CF",
+    "logoPath": "/logos/elche.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 900190,
+    "name": "FC Barcelona",
+    "logoPath": "/logos/barcelona.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 1860,
+    "name": "Getafe CF",
+    "logoPath": "/logos/getafe.png",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 110062,
+    "name": "Girona FC",
+    "logoPath": "/logos/girona.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 131125,
+    "name": "Levante UD",
+    "logoPath": "/logos/levante.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 450,
+    "name": "RC Celta de Vigo",
+    "logoPath": "/logos/celta.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 900191,
+    "name": "RCD Espanyol",
+    "logoPath": "/logos/espanyol.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 453,
+    "name": "RCD Mallorca",
+    "logoPath": "/logos/mallorca.png",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 480,
+    "name": "Rayo Vallecano",
+    "logoPath": "/logos/rayo-vallecano.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 900192,
+    "name": "Real Betis Balompié",
+    "logoPath": "/logos/real-betis.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 900193,
+    "name": "Real Madrid",
+    "logoPath": "/logos/real-madrid.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 110827,
+    "name": "Real Oviedo",
+    "logoPath": "/logos/oviedo.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 110711,
+    "name": "Real Sociedad",
+    "logoPath": "/logos/real-sociedad.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 900194,
+    "name": "Sevilla FC",
+    "logoPath": "/logos/sevilla.png",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 461,
+    "name": "Valencia CF",
+    "logoPath": "/logos/valencia.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 483,
+    "name": "Villarreal CF",
+    "logoPath": "/logos/villarreal.svg",
+    "country": "spain",
+    "leagueId": 1036,
+    "leagueName": "Spain Primera División (1)"
+  },
+  {
+    "id": 1894,
+    "name": "AD Ceuta",
+    "logoPath": "/logos/ceuta.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 1854,
+    "name": "Albacete Balompié",
+    "logoPath": "/logos/albacete.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 10846,
+    "name": "Burgos CF",
+    "logoPath": "/logos/burgos.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 100852,
+    "name": "CD Castellón",
+    "logoPath": "/logos/castellon.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 100888,
+    "name": "CD Leganés",
+    "logoPath": "/logos/leganes.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 110069,
+    "name": "CD Mirandés",
+    "logoPath": "/logos/mirandes.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 15012,
+    "name": "Cultural Leonesa",
+    "logoPath": "/logos/cultural-leonesa.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 1968,
+    "name": "Cádiz CF",
+    "logoPath": "/logos/cadiz_cf.png",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 1867,
+    "name": "Córdoba CF",
+    "logoPath": "/logos/cordoba.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 114554,
+    "name": "FC Andorra",
+    "logoPath": "/logos/fc-andorra.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 900195,
+    "name": "Granada CF",
+    "logoPath": "/logos/granada.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 573,
+    "name": "Málaga CF",
+    "logoPath": "/logos/malaga.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 900196,
+    "name": "RC Deportivo",
+    "logoPath": "/logos/cucuta-deportivo.png",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 900197,
+    "name": "Racing de Santander",
+    "logoPath": "/logos/racing.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 900198,
+    "name": "Real Sociedad B",
+    "logoPath": "/logos/real-sociedad.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 900199,
+    "name": "Real Sporting de Gijón",
+    "logoPath": "/logos/sporting-gijon.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 462,
+    "name": "Real Valladolid",
+    "logoPath": "/logos/valladolid.png",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 244,
+    "name": "Real Zaragoza",
+    "logoPath": "/logos/zaragoza.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 900200,
+    "name": "SD Eibar",
+    "logoPath": "/logos/eibar.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 110839,
+    "name": "SD Huesca",
+    "logoPath": "/logos/huesca.png",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 93322,
+    "name": "UD Almería",
+    "logoPath": "/logos/almeria.svg",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 472,
+    "name": "UD Las Palmas",
+    "logoPath": "/logos/las-palmas.png",
+    "country": "spain",
+    "leagueId": 1037,
+    "leagueName": "Spain Segunda División (2)"
+  },
+  {
+    "id": 900201,
+    "name": "5v5 Team1",
+    "logoPath": "/logos/5v5_team1.svg",
+    "country": "special",
+    "leagueId": 1038,
+    "leagueName": "5v5 League"
+  },
+  {
+    "id": 900202,
+    "name": "5v5 Team2",
+    "logoPath": "/logos/5v5_team2.svg",
+    "country": "special",
+    "leagueId": 1038,
+    "leagueName": "5v5 League"
+  },
+  {
+    "id": 900203,
+    "name": "FUT Custom Team 19",
+    "logoPath": "/logos/fut_custom_team_19.svg",
+    "country": "special",
+    "leagueId": 1038,
+    "leagueName": "5v5 League"
+  },
+  {
+    "id": 900204,
+    "name": "Create Club Team",
+    "logoPath": "/logos/create_club_team.svg",
+    "country": "special",
+    "leagueId": 1039,
+    "leagueName": "Create Player League"
+  },
+  {
+    "id": 900205,
+    "name": "Create Player Team",
+    "logoPath": "/logos/create_player_team.svg",
+    "country": "special",
+    "leagueId": 1039,
+    "leagueName": "Create Player League"
+  },
+  {
+    "id": 900206,
+    "name": "Look Book Character Team",
+    "logoPath": "/logos/look_book_character_team.svg",
+    "country": "special",
+    "leagueId": 1040,
+    "leagueName": "FIFA Twist"
+  },
+  {
+    "id": 900207,
+    "name": "Free Agent Managers",
+    "logoPath": "/logos/free_agent_managers.svg",
+    "country": "special",
+    "leagueId": 1041,
+    "leagueName": "Free Agents League"
+  },
+  {
+    "id": 900208,
+    "name": "NG - FA",
+    "logoPath": "/logos/ng_fa.svg",
+    "country": "special",
+    "leagueId": 1041,
+    "leagueName": "Free Agents League"
+  },
+  {
+    "id": 900209,
+    "name": "NG - FA Women",
+    "logoPath": "/logos/ng_fa_women.svg",
+    "country": "special",
+    "leagueId": 1041,
+    "leagueName": "Free Agents League"
+  },
+  {
+    "id": 900210,
+    "name": "OTP Generics",
+    "logoPath": "/logos/otp_generics.svg",
+    "country": "special",
+    "leagueId": 1042,
+    "leagueName": "OTP Generics"
+  },
+  {
+    "id": 900211,
+    "name": "OTP Generics",
+    "logoPath": "/logos/otp_generics.svg",
+    "country": "special",
+    "leagueId": 1042,
+    "leagueName": "OTP Generics"
+  },
+  {
+    "id": 433,
+    "name": "AIK",
+    "logoPath": "/logos/aik_fotboll.svg",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 711,
+    "name": "BK Häcken",
+    "logoPath": "/logos/hacken.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 113892,
+    "name": "Degerfors IF",
+    "logoPath": "/logos/degerfors.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 710,
+    "name": "Djurgårdens IF",
+    "logoPath": "/logos/djurgarden.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 111594,
+    "name": "GAIS",
+    "logoPath": "/logos/gais.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 321,
+    "name": "Halmstads BK",
+    "logoPath": "/logos/halmstad.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 708,
+    "name": "Hammarby IF",
+    "logoPath": "/logos/hammarby.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 111705,
+    "name": "IF Brommapojkarna",
+    "logoPath": "/logos/brommapojkarna.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 700,
+    "name": "IF Elfsborg",
+    "logoPath": "/logos/elfsborg.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 319,
+    "name": "IFK Göteborg",
+    "logoPath": "/logos/goteborg.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 702,
+    "name": "IFK Norrköping",
+    "logoPath": "/logos/norrkoping.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 112126,
+    "name": "IFK Värnamo",
+    "logoPath": "/logos/varnamo.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 113458,
+    "name": "IK Sirius",
+    "logoPath": "/logos/sirius.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 320,
+    "name": "Malmö FF",
+    "logoPath": "/logos/malmo.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 900212,
+    "name": "Mjällby AIF",
+    "logoPath": "/logos/mjallby.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 1870,
+    "name": "Östers IF",
+    "logoPath": "/logos/oster.png",
+    "country": "sweden",
+    "leagueId": 1043,
+    "leagueName": "Sweden Allsvenskan (1)"
+  },
+  {
+    "id": 900,
+    "name": "BSC Young Boys",
+    "logoPath": "/logos/young-boys.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 896,
+    "name": "FC Basel",
+    "logoPath": "/logos/basel.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 1862,
+    "name": "FC Lausanne-Sport",
+    "logoPath": "/logos/lausanne-sport.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 10032,
+    "name": "FC Lugano",
+    "logoPath": "/logos/lugano.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 897,
+    "name": "FC Luzern",
+    "logoPath": "/logos/luzern.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 110770,
+    "name": "FC Sion",
+    "logoPath": "/logos/sion.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 898,
+    "name": "FC St. Gallen",
+    "logoPath": "/logos/st-gallen.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 1715,
+    "name": "FC Thun",
+    "logoPath": "/logos/thun.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 1713,
+    "name": "FC Winterthur",
+    "logoPath": "/logos/winterthur.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 900213,
+    "name": "FC Zürich",
+    "logoPath": "/logos/zurich.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 322,
+    "name": "Grasshopper Club Zürich",
+    "logoPath": "/logos/grasshopper_club_zurich.svg",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 324,
+    "name": "Servette FC",
+    "logoPath": "/logos/servette.png",
+    "country": "switzerland",
+    "leagueId": 1044,
+    "leagueName": "Switzerland Super League (1)"
+  },
+  {
+    "id": 741,
+    "name": "Antalyaspor",
+    "logoPath": "/logos/antalyaspor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 327,
+    "name": "Beşiktaş",
+    "logoPath": "/logos/besiktas.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 113142,
+    "name": "Corendon Alanyaspor",
+    "logoPath": "/logos/alanyaspor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 131174,
+    "name": "Eyüpspor",
+    "logoPath": "/logos/eyupspor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 111117,
+    "name": "Fatih Karagümrük S.K.",
+    "logoPath": "/logos/fatih-karagumruk.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 326,
+    "name": "Fenerbahçe",
+    "logoPath": "/logos/fenerbahce.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 325,
+    "name": "Galatasaray",
+    "logoPath": "/logos/galatasaray.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 110776,
+    "name": "Gaziantep FK",
+    "logoPath": "/logos/gaziantep.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 101025,
+    "name": "Gençlerbirliği",
+    "logoPath": "/logos/genclerbirligi.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 101026,
+    "name": "Göztepe",
+    "logoPath": "/logos/goztepe-izmir.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 111339,
+    "name": "Kasımpaşa",
+    "logoPath": "/logos/kasimpasa_sk.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 101020,
+    "name": "Kayserispor",
+    "logoPath": "/logos/kayserispor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 101032,
+    "name": "Kocaelispor",
+    "logoPath": "/logos/kocaelispor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 101033,
+    "name": "Konyaspor",
+    "logoPath": "/logos/konyaspor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 748,
+    "name": "Samsunspor",
+    "logoPath": "/logos/samsunspor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 436,
+    "name": "Trabzonspor",
+    "logoPath": "/logos/trabzonspor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 101037,
+    "name": "Çaykur Rizespor",
+    "logoPath": "/logos/rizespor.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 900214,
+    "name": "İstanbul Başakşehir FK",
+    "logoPath": "/logos/basaksehir.svg",
+    "country": "turkey",
+    "leagueId": 1045,
+    "leagueName": "Turkey Süper Lig (1)"
+  },
+  {
+    "id": 112885,
+    "name": "Atlanta United FC",
+    "logoPath": "/logos/atlanta-united.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 114161,
+    "name": "Austin FC",
+    "logoPath": "/logos/austin_fc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 111139,
+    "name": "CF Montréal",
+    "logoPath": "/logos/cf-montreal.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 114640,
+    "name": "Charlotte FC",
+    "logoPath": "/logos/charlotte-fc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 693,
+    "name": "Chicago Fire FC",
+    "logoPath": "/logos/chicago-fire-fc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 694,
+    "name": "Colorado Rapids",
+    "logoPath": "/logos/colorado-rapids.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 687,
+    "name": "Columbus Crew",
+    "logoPath": "/logos/columbus-crew.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 900215,
+    "name": "D.C. United",
+    "logoPath": "/logos/dc-united.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 113149,
+    "name": "FC Cincinnati",
+    "logoPath": "/logos/fc-cincinnati.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 695,
+    "name": "FC Dallas",
+    "logoPath": "/logos/fc-dallas.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 116306,
+    "name": "Houston Dynamo",
+    "logoPath": "/logos/houston-dynamo.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 112893,
+    "name": "Inter Miami",
+    "logoPath": "/logos/inter-miami-cf.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 900216,
+    "name": "Los Angeles FC",
+    "logoPath": "/logos/los_angeles_fc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 900217,
+    "name": "Los Angeles Galaxy",
+    "logoPath": "/logos/la_galaxy.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 900218,
+    "name": "Minnesota United FC",
+    "logoPath": "/logos/minnesota-united-fc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 114162,
+    "name": "Nashville SC",
+    "logoPath": "/logos/nashville-sc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 900219,
+    "name": "New England Revolution",
+    "logoPath": "/logos/new-england-revolution.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 112828,
+    "name": "New York City FC",
+    "logoPath": "/logos/york.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 112606,
+    "name": "Orlando City SC",
+    "logoPath": "/logos/orlando-city.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 112134,
+    "name": "Philadelphia Union",
+    "logoPath": "/logos/philadelphia-union.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 111140,
+    "name": "Portland Timbers",
+    "logoPath": "/logos/portland-timbers.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 111065,
+    "name": "Real Salt Lake",
+    "logoPath": "/logos/real-salt-lake.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 900220,
+    "name": "Red Bull New York",
+    "logoPath": "/logos/new_york_red_bulls.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 131439,
+    "name": "San Diego FC",
+    "logoPath": "/logos/san-diego-fc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 111928,
+    "name": "San Jose Earthquakes",
+    "logoPath": "/logos/san-jose-earthquakes.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 900221,
+    "name": "Seattle Sounders",
+    "logoPath": "/logos/seattle-sounders-fc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 696,
+    "name": "Sporting KC",
+    "logoPath": "/logos/sporting-kc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 113018,
+    "name": "St. Louis City SC",
+    "logoPath": "/logos/st-louis-city-sc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 111651,
+    "name": "Toronto FC",
+    "logoPath": "/logos/toronto-fc.svg",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 900222,
+    "name": "Vancouver Whitecaps",
+    "logoPath": "/logos/vancouver-whitecaps-fc.png",
+    "country": "usa",
+    "leagueId": 1046,
+    "leagueName": "USA Major League Soccer (1)"
+  },
+  {
+    "id": 116311,
+    "name": "Angel City FC",
+    "logoPath": "/logos/almere-city-fc.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 131477,
+    "name": "Bay FC",
+    "logoPath": "/logos/bay_fc.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 116305,
+    "name": "Chicago Stars FC",
+    "logoPath": "/logos/chicago_stars_fc.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 900223,
+    "name": "Gotham FC",
+    "logoPath": "/logos/gotham_fc.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 900224,
+    "name": "Houston Dash",
+    "logoPath": "/logos/houston-dash.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 900225,
+    "name": "Kansas City Current",
+    "logoPath": "/logos/kansas_city_current.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 900226,
+    "name": "North Carolina Courage",
+    "logoPath": "/logos/north-carolina-fc.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 116307,
+    "name": "Orlando Pride",
+    "logoPath": "/logos/orlando_pride.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 900227,
+    "name": "Portland Thorns FC",
+    "logoPath": "/logos/portland-timbers.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 900228,
+    "name": "Racing Louisville FC",
+    "logoPath": "/logos/louisville-city-fc.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 116312,
+    "name": "San Diego Wave FC",
+    "logoPath": "/logos/san-diego-fc.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 900229,
+    "name": "Seattle Reign FC",
+    "logoPath": "/logos/seattle-sounders-fc.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 131478,
+    "name": "Utah Royals",
+    "logoPath": "/logos/utah_royals.svg",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 116304,
+    "name": "Washington Spirit",
+    "logoPath": "/logos/116304.png",
+    "country": "usa",
+    "leagueId": 1047,
+    "leagueName": "USA NWSL (1)"
+  },
+  {
+    "id": 900230,
+    "name": "Youth Squad [DO NOT USE]",
+    "logoPath": "/logos/youth_squad.svg",
+    "country": "unknown",
+    "leagueId": 1048,
+    "leagueName": "Youth Squad League"
+  },
+  {
+    "id": 900231,
+    "name": "Argentina Women",
+    "logoPath": "/logos/argentina-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900232,
+    "name": "Canada Women",
+    "logoPath": "/logos/canada-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900233,
+    "name": "Denmark Women",
+    "logoPath": "/logos/denmark-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900234,
+    "name": "England Women",
+    "logoPath": "/logos/england-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900235,
+    "name": "Finland Women",
+    "logoPath": "/logos/finland-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900236,
+    "name": "France Women",
+    "logoPath": "/logos/france-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900237,
+    "name": "Germany Women",
+    "logoPath": "/logos/germany-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900238,
+    "name": "Holland Women",
+    "logoPath": "/logos/holland-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900239,
+    "name": "Iceland Women",
+    "logoPath": "/logos/iceland-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900240,
+    "name": "Mexico Women",
+    "logoPath": "/logos/mexico-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900241,
+    "name": "Norway Women",
+    "logoPath": "/logos/norway-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900242,
+    "name": "Poland Women",
+    "logoPath": "/logos/poland-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900243,
+    "name": "Portugal Women",
+    "logoPath": "/logos/portugal-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900244,
+    "name": "Scotland Women",
+    "logoPath": "/logos/scotland-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900245,
+    "name": "Spain Women",
+    "logoPath": "/logos/spain-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900246,
+    "name": "Sweden Women",
+    "logoPath": "/logos/sweden-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900247,
+    "name": "United States Women",
+    "logoPath": "/logos/united-states-women.png",
+    "country": "womens-league",
+    "leagueId": 1049,
+    "leagueName": "International Women"
+  },
+  {
+    "id": 900248,
+    "name": "Ajax",
+    "logoPath": "/logos/ajax.png",
+    "country": "womens-league",
+    "leagueId": 1050,
+    "leagueName": "Rest of World Women"
+  },
+  {
+    "id": 900249,
+    "name": "Benfica",
+    "logoPath": "/logos/benfica.png",
+    "country": "womens-league",
+    "leagueId": 1050,
+    "leagueName": "Rest of World Women"
+  },
+  {
+    "id": 131362,
+    "name": "FC Rosengård",
+    "logoPath": "/logos/rosengard.svg",
+    "country": "womens-league",
+    "leagueId": 1050,
+    "leagueName": "Rest of World Women"
+  },
+  {
+    "id": 900250,
+    "name": "FC Zürich",
+    "logoPath": "/logos/zurich.png",
+    "country": "womens-league",
+    "leagueId": 1050,
+    "leagueName": "Rest of World Women"
+  },
+  {
+    "id": 131363,
+    "name": "Glasgow City",
+    "logoPath": "/logos/glasgow-city.svg",
+    "country": "womens-league",
+    "leagueId": 1050,
+    "leagueName": "Rest of World Women"
+  },
+  {
+    "id": 900251,
+    "name": "Juventus",
+    "logoPath": "/logos/juventus.svg",
+    "country": "womens-league",
+    "leagueId": 1050,
+    "leagueName": "Rest of World Women"
+  },
+  {
+    "id": 900252,
+    "name": "Roma",
+    "logoPath": "/logos/roma.png",
+    "country": "womens-league",
+    "leagueId": 1050,
+    "leagueName": "Rest of World Women"
+  },
+  {
+    "id": 900253,
+    "name": "Slavia Praha",
+    "logoPath": "/logos/slavia-praha.svg",
+    "country": "womens-league",
+    "leagueId": 1050,
+    "leagueName": "Rest of World Women"
+  }
+]
