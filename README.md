@@ -1,6 +1,6 @@
 # EA FC Team Picker
 
-> **Live:** <https://PROJECT.vercel.app> 
+> **Live:** <ea-fc-26-team-picker.vercel.app> 
 
 A browser-based AR filter that randomly assigns EA FC clubs to players via the device camera. Point the camera at 1–2 faces, tap **SPIN**, and a slot-machine reel flashes team crests before landing on a random assignment above each player's head.
 
